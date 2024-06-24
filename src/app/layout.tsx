@@ -49,7 +49,6 @@ export default function RootLayout({
         {/*responsive CSS*/}
         <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
         {/*modernizr js*/}	
-        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>	
         {/*bootstrap icons*/}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
       </head>

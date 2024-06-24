@@ -1,66 +1,19 @@
+"use client";
+
 import Image from "next/image";
+import { useState, useEffect } from 'react';
+import Script from "next/script";
 
 export default function Home() {
   return <>
   {/*==================================================*/}
-  {/* Start charina Header Top Menu Area Css */}
-  {/*==================================================*/}
-  <div className="header_top_menu">
-    <div className="container-fluid">
-      <div className="row align-items-center">
-        <div className="col-lg-3" />
-        <div className="col-lg-5 col-sm-8">
-          <div className="header_top_menu_address">
-            <div className="header_top_menu_text">
-              <p> Welcome! Charina Non-Profit Program 2023 </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-4">
-          <div className="header_top_menu_icon text-right">
-            <div className="menu-text">
-              <p>
-                {" "}
-                <i className="bi bi-person-circle" /> Login / Register{" "}
-              </p>
-            </div>
-            <div className="header_top_menu_icon_inner">
-              <ul>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="bi bi-twitter" />
-                  </a>
-                </li>
-                <li className="menu-icon">
-                  <a href="#">
-                    <i className="fab fa-linkedin-in" />
-                  </a>
-                </li>
-                <li className="menu-icon">
-                  <a href="#">
-                    <i className="fab fa-pinterest-p" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina Header Top Menu Area Css */}
-  {/*===================================================*/}
-  {/*==================================================*/}
   {/* Start charina Main Menu Area */}
   {/*==================================================*/}
-  <div id="sticky-header" className="charina_nav_manu align-items-center">
-    <div className="container-fluid">
+  <div
+    id="sticky-header"
+    className="charina_nav_manu style-three align-items-center"
+  >
+    <div className="container">
       <div className="row align-items-center">
         <div className="col-lg-2">
           <div className="logo">
@@ -68,11 +21,11 @@ export default function Home() {
               <img src="assets/images/logo.png" alt="" />
             </a>
             <a className="main_sticky" href="index.html" title="charina">
-              <img src="assets/images/logo.png" alt="astute" />
+              <img src="assets/images/logo2.png" alt="astute" />
             </a>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-8">
           <nav className="charina_menu">
             <ul className="nav_scroll">
               <li>
@@ -179,26 +132,7 @@ export default function Home() {
             </ul>
           </nav>
         </div>
-        <div className="col-lg-2">
-          <div className="header-right-button-box">
-            <div className="header-button2">
-              <a href="#">
-                {" "}
-                <i className="bi bi-telephone" />{" "}
-              </a>
-            </div>
-            <div className="slider-button-title">
-              <p>Call Us Anytime</p>
-              <h6>+98 678 (960) 280</h6>
-            </div>
-          </div>
-        </div>
         <div className="col-lg-2 pl-0 ">
-          <div className="search-box-btn search-box-outer">
-            <a href="#">
-              <i className="bi bi-search" />{" "}
-            </a>
-          </div>
           <div className="header-button">
             <a href="donate.html">
               {" "}
@@ -325,24 +259,28 @@ export default function Home() {
   {/*==================================================*/}
   {/* Start charina hero section */}
   {/*==================================================*/}
-  <div className="hero_list owl-carousel">
-    <div className="hero-section d-flex align-items-center">
+  <div className="hero_list owl-carousel responsive">
+    <div className="hero-section hero3 d-flex align-items-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             {/* hero content */}
-            <div className="hero-content text-left">
+            <div className="hero-content text-center">
+              {/* hero icon */}
+              <div className="hero-icon dance">
+                <img src="assets/images/resource/heart2.png" alt="" />
+              </div>
+              {/* hero sub title */}
               <div className="hero-sub-title">
                 <h5>Helping Today, Helping Tomorrow</h5>
               </div>
               {/* hero title */}
               <div className="hero-title">
-                <h1> Giving a Helpline</h1>
+                <h1> Let’s Give them Your</h1>
                 <h1>
                   {" "}
-                  hand for <span>Childreens</span>{" "}
+                  Helping <span>Hands</span>{" "}
                 </h1>
-                <h1> In Needs. </h1>
               </div>
               {/* hero button */}
               <div className="hero-button">
@@ -351,33 +289,28 @@ export default function Home() {
                   Discover More <i className="bi bi-chevron-double-right" />
                 </a>
               </div>
-              {/* video button */}
-              <div className="video-button">
-                <div className="video-icon">
-                  <a
-                    className="video-demo-icon venobox vbox-item"
-                    data-vbtype="youtube"
-                    data-autoplay="true"
-                    href="https://youtu.be/BS4TUd7FJSg"
-                  >
-                    <i className="bi bi-play" />
-                  </a>
-                </div>
-                <div className="hero-shape rotateme">
-                  <img src="assets/images/slider/video-circle.png" alt="" />
-                </div>
+              <div className="hero-button">
+                <a href="volunteer.html">
+                  {" "}
+                  Join Volunteer <i className="bi bi-chevron-double-right" />
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div className="hero-section hero2 d-flex align-items-center">
+    <div className="hero-section hero4 d-flex align-items-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             {/* hero content */}
-            <div className="hero-content text-left">
+            <div className="hero-content text-center">
+              {/* hero icon */}
+              <div className="hero-icon dance">
+                <img src="assets/images/resource/heart2.png" alt="" />
+              </div>
+              {/* hero sub title */}
               <div className="hero-sub-title">
                 <h5>Helping Today, Helping Tomorrow</h5>
               </div>
@@ -388,7 +321,6 @@ export default function Home() {
                   {" "}
                   hand for <span>Childreens</span>{" "}
                 </h1>
-                <h1> In Needs. </h1>
               </div>
               {/* hero button */}
               <div className="hero-button">
@@ -397,21 +329,11 @@ export default function Home() {
                   Discover More <i className="bi bi-chevron-double-right" />
                 </a>
               </div>
-              {/* video button */}
-              <div className="video-button">
-                <div className="video-icon">
-                  <a
-                    className="video-demo-icon venobox vbox-item"
-                    data-vbtype="youtube"
-                    data-autoplay="true"
-                    href="https://youtu.be/BS4TUd7FJSg"
-                  >
-                    <i className="bi bi-play" />
-                  </a>
-                </div>
-                <div className="hero-shape rotateme">
-                  <img src="assets/images/slider/video-circle.png" alt="" />
-                </div>
+              <div className="hero-button">
+                <a href="volunteer.html">
+                  {" "}
+                  Join Volunteer <i className="bi bi-chevron-double-right" />
+                </a>
               </div>
             </div>
           </div>
@@ -423,15 +345,113 @@ export default function Home() {
   {/*End charina hero section  */}
   {/*==================================================*/}
   {/*==================================================*/}
-  {/* Start charina about Section */}
+  {/* Start charina feature Section */}
   {/*==================================================*/}
-  <div className="about-section">
+  <div className="feature-section">
     <div className="container">
+      <div className="row feature-bg">
+        <div className="col-lg-4 col-md-6">
+          <div className="feature-single-box">
+            {/* feature thumb */}
+            <div className="feature-thumb">
+              <img src="assets/images/resource/feature1.png" alt="" />
+            </div>
+            {/* feature title */}
+            <div className="feature-content">
+              {/* feature title */}
+              <div className="feature-title">
+                <h3>Send Donations</h3>
+              </div>
+              {/* feature desc */}
+              <div className="feature-description">
+                <p>
+                  Leveraged best practices and B2B edge productivate cutting
+                  solution
+                </p>
+              </div>
+            </div>
+            <div className="feature-button">
+              <a href="service.html">
+                {" "}
+                Read More <i className="bi bi-arrow-right" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6">
+          <div className="feature-single-box upper">
+            {/* feature thumb */}
+            <div className="feature-thumb">
+              <img src="assets/images/resource/feature2.png" alt="" />
+            </div>
+            {/* feature title */}
+            <div className="feature-content">
+              {/* feature title */}
+              <div className="feature-title">
+                <h3>Become A Volunteer</h3>
+              </div>
+              {/* feature desc */}
+              <div className="feature-description">
+                <p>
+                  Leveraged best practices and B2B edge productivate cutting
+                  solution
+                </p>
+              </div>
+            </div>
+            <div className="feature-button">
+              <a href="service.html">
+                {" "}
+                Read More <i className="bi bi-arrow-right" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6">
+          <div className="feature-single-box upper2">
+            {/* feature thumb */}
+            <div className="feature-thumb">
+              <img src="assets/images/resource/feature3.png" alt="" />
+            </div>
+            {/* feature title */}
+            <div className="feature-content">
+              {/* feature title */}
+              <div className="feature-title">
+                <h3>Latest Events</h3>
+              </div>
+              {/* feature desc */}
+              <div className="feature-description">
+                <p>
+                  Leveraged best practices and B2B edge productivate cutting
+                  solution
+                </p>
+              </div>
+            </div>
+            <div className="feature-button">
+              <a href="service.html">
+                {" "}
+                Read More <i className="bi bi-arrow-right" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="row">
         <div className="col-lg-6">
           {/* about thumb */}
-          <div className="about-thumb">
-            <img src="assets/images/resource/about.png" alt="" />
+          <div className="about-thumb2">
+            <img src="assets/images/resource/about2.png" alt="" />
+            {/* about counter */}
+            <div className="about-couner">
+              <div className="about-counter-thumb">
+                <div className="about-counter-title">
+                  <h2 className="counter">12</h2>
+                  <h2>K+</h2>
+                </div>
+                <div className="counter-text2">
+                  <p>Volunteers</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="col-lg-6 pr-0 pl-4">
@@ -445,51 +465,124 @@ export default function Home() {
             <p>
               {" "}
               Phosfluorescently cultivate enabled relationships without sticky
-              practices distinctively empower next-generation e-commerce{" "}
+              practices distinctively empower next-generation e-commerce network{" "}
             </p>
           </div>
-          {/* charina description */}
-          <div className="charina-description">
-            <p>
-              Helped Fund <span>24,347</span> Projects in 250 Countries
-              worldwide donated <span>5 Milion</span> Peoples
-            </p>
+          {/* about items */}
+          <div className="charina-about-items">
+            {/* about icon */}
+            <div className="items-icon">
+              <img src="assets/images/resource/item2.png" alt="" />
+            </div>
+            {/* item content */}
+            <div className="about-item-content">
+              <h3>Quick Fundraising</h3>
+              <p>
+                Distinctively empower next-generation charity and idea-sharing
+                and extensible
+              </p>
+            </div>
+            {/* about icon */}
+            <div className="items-icon">
+              <img src="assets/images/resource/item1.png" alt="" />
+            </div>
+            {/* item content */}
+            <div className="about-item-content">
+              <h3>Join Our Team</h3>
+              <p>
+                Distinctively empower next-generation charity and idea-sharing
+                and extensible
+              </p>
+            </div>
           </div>
-          {/* charina check list */}
-          <div className="charina-check-list">
-            <p>
-              {" "}
-              <i className="bi bi-check-circle-fill" /> Join Our Charity Team
-              and Helps the People{" "}
-            </p>
-            <p className="charina-icon">
-              {" "}
-              <i className="bi bi-check-circle-fill" /> Donate Money for Poor
-              Childreens help Educations{" "}
-            </p>
-          </div>
-          {/* charina button */}
-          <div className="charina-button">
+          <div className="charina-button upp">
             <a href="about.html">
               {" "}
               Discover More <i className="bi bi-chevron-double-right" />{" "}
             </a>
           </div>
         </div>
-        {/* about shape */}
-        <div className="about-shape dance">
-          <img src="assets/images/resource/most.png" alt="" />
+      </div>
+    </div>
+  </div>
+  {/*==================================================*/}
+  {/*End charina slider section  */}
+  {/*==================================================*/}
+  {/*==================================================*/}
+  {/* Start charina project section  */}
+  {/*==================================================*/}
+  <div className="project-section">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="charina-section-title white text-center pb-70">
+            <h4> Start Donating Theme </h4>
+            <h1>
+              {" "}
+              Our Ongoing <span>Projects</span>{" "}
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-3 col-md-6">
+          <div className="project-single-box">
+            {/* project thumb */}
+            <div className="project-thumb">
+              <img src="assets/images/resource/project1.png" alt="" />
+            </div>
+            {/* project title */}
+            <div className="project-title">
+              <h3>Free Medicals</h3>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6">
+          <div className="project-single-box">
+            {/* project thumb */}
+            <div className="project-thumb">
+              <img src="assets/images/resource/project2.png" alt="" />
+            </div>
+            {/* project title */}
+            <div className="project-title">
+              <h3>Foods and Water</h3>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6">
+          <div className="project-single-box">
+            {/* project thumb */}
+            <div className="project-thumb">
+              <img src="assets/images/resource/project3.png" alt="" />
+            </div>
+            {/* project title */}
+            <div className="project-title">
+              <h3>Emergency Aids</h3>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6">
+          <div className="project-single-box">
+            {/* project thumb */}
+            <div className="project-thumb">
+              <img src="assets/images/resource/project4.png" alt="" />
+            </div>
+            {/* project title */}
+            <div className="project-title">
+              <h3>Zero Proverty</h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
   {/*==================================================*/}
-  {/* End charina about Secton */}
+  {/* End charina project Secton */}
   {/*==================================================*/}
   {/*==================================================*/}
-  {/* Start charina donate section  */}
+  {/* Start charina Donate Section */}
   {/*==================================================*/}
-  <div className="donate-section">
+  <div className="donate-section style-two upper">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
@@ -497,1088 +590,174 @@ export default function Home() {
             <h4> Start Donating Theme </h4>
             <h1>
               {" "}
-              Find the Popular <span>Causes</span>{" "}
+              Our Featured <span>Campaigns</span>{" "}
             </h1>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="donate-list owl-carousel">
-          <div className="col-lg-12">
-            <div className="charina-donate-single-box">
-              {/* donate thumb */}
-              <div className="donate-thumb">
-                <img src="assets/images/resource/donate1.jpg" alt="" />
-                {/* thumb text */}
-                <div className="thumb-category">
-                  <span>Foods</span>
-                </div>
-              </div>
-              {/* donate content */}
-              <div className="charina-donate-content">
-                <div className="donate-title">
-                  <h3>
-                    <a href="donations-details.html">
-                      Raise fund for clean &amp; healthy foods
-                    </a>
-                  </h3>
-                </div>
-                {/* donate text */}
-                <div className="donate-text">
-                  <p>
-                    {" "}
-                    <i className="bi bi-alarm-fill" /> 150 Days Remaining
-                  </p>
-                </div>
-                {/* progress ber */}
-                <div className="progress-ber-plugin">
-                  <div id="bar1" className="barfiller">
-                    <div className="tipWrap">
-                      <span className="tip" />
-                    </div>
-                    <span className="fill" data-percentage="60.1" />
-                  </div>
-                  <div className="progress-text">
-                    <p>
-                      Achived : <span>$50,000</span>{" "}
-                    </p>
-                    <p className="progress-text">
-                      {" "}
-                      Goal : <span>$50,000</span>
-                    </p>
-                  </div>
-                </div>
-                {/* progress ber end */}
-              </div>
+      <div className="row align-items-center donate-bg">
+        <div className="owl-carousel donate-list2">
+          {/* donate campaigns items */}
+          <div className="donate-campaigns-items">
+            {/* donate thumb */}
+            <div className="donate-thumb2">
+              <img src="assets/images/resource/donate.png" alt="" />
             </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="charina-donate-single-box upper">
-              {/* donate thumb */}
-              <div className="donate-thumb">
-                <img src="assets/images/resource/donate2.png" alt="" />
-                {/* thumb text */}
-                <div className="thumb-category">
-                  <span>Education</span>
-                </div>
-              </div>
-              {/* donate content */}
-              <div className="charina-donate-content">
-                <div className="donate-title">
-                  <h3>
-                    <a href="donations-details.html">
-                      Give a good education orphan childreen
-                    </a>
-                  </h3>
-                </div>
-                {/* donate text */}
-                <div className="donate-text">
-                  <p>
-                    {" "}
-                    <i className="bi bi-alarm-fill" /> 150 Days Remaining
-                  </p>
-                </div>
-                {/* progress ber */}
-                <div className="progress-ber-plugin">
-                  <div id="bar2" className="barfiller">
-                    <div className="tipWrap">
-                      <span className="tip" />
-                    </div>
-                    <span className="fill up" data-percentage="65.1" />
-                  </div>
-                  <div className="progress-text">
-                    <p>
-                      Achived : <span>$85,000</span>{" "}
-                    </p>
-                    <p className="progress-text">
-                      {" "}
-                      Goal : <span>$65,000</span>
-                    </p>
-                  </div>
-                </div>
-                {/* progress ber end */}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="charina-donate-single-box upper2">
-              {/* donate thumb */}
-              <div className="donate-thumb">
-                <img src="assets/images/resource/donate3.png" alt="" />
-                {/* thumb text */}
-                <div className="thumb-category">
-                  <span>Foods</span>
-                </div>
-              </div>
-              {/* donate content */}
-              <div className="charina-donate-content">
-                <div className="donate-title">
-                  <h3>
-                    <a href="donations-details.html">
-                      Build home for African poor womens
-                    </a>
-                  </h3>
-                </div>
-                {/* donate text */}
-                <div className="donate-text">
-                  <p>
-                    {" "}
-                    <i className="bi bi-alarm-fill" /> 150 Days Remaining
-                  </p>
-                </div>
-                {/* progress ber */}
-                <div className="progress-ber-plugin">
-                  <div id="bar3" className="barfiller">
-                    <div className="tipWrap">
-                      <span className="tip" />
-                    </div>
-                    <span className="fill up2" data-percentage="70.1" />
-                  </div>
-                  <div className="progress-text">
-                    <p>
-                      Achived : <span>$50,000</span>{" "}
-                    </p>
-                    <p className="progress-text">
-                      {" "}
-                      Goal : <span>$50,000</span>
-                    </p>
-                  </div>
-                </div>
-                {/* progress ber end */}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="charina-donate-single-box">
-              {/* donate thumb */}
-              <div className="donate-thumb">
-                <img src="assets/images/resource/donate4.png" alt="" />
-                {/* thumb text */}
-                <div className="thumb-category">
-                  <span>Foods</span>
-                </div>
-              </div>
-              {/* donate content */}
-              <div className="charina-donate-content">
-                <div className="donate-title">
-                  <h3>
-                    <a href="donations-details.html">
-                      Raise fund for clean &amp; healthy foods
-                    </a>
-                  </h3>
-                </div>
-                {/* donate text */}
-                <div className="donate-text">
-                  <p>
-                    {" "}
-                    <i className="bi bi-alarm-fill" /> 150 Days Remaining
-                  </p>
-                </div>
-                {/* progress ber */}
-                <div className="progress-ber-plugin">
-                  <div id="bar11" className="barfiller">
-                    <div className="tipWrap">
-                      <span className="tip" />
-                    </div>
-                    <span className="fill" data-percentage="60.1" />
-                  </div>
-                  <div className="progress-text">
-                    <p>
-                      Achived : <span>$50,000</span>{" "}
-                    </p>
-                    <p className="progress-text">
-                      {" "}
-                      Goal : <span>$50,000</span>
-                    </p>
-                  </div>
-                </div>
-                {/* progress ber end */}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="charina-donate-single-box upper">
-              {/* donate thumb */}
-              <div className="donate-thumb">
-                <img src="assets/images/resource/donate5.png" alt="" />
-                {/* thumb text */}
-                <div className="thumb-category">
-                  <span>Education</span>
-                </div>
-              </div>
-              {/* donate content */}
-              <div className="charina-donate-content">
-                <div className="donate-title">
-                  <h3>
-                    <a href="donations-details.html">
-                      Give a good education orphan childreen
-                    </a>
-                  </h3>
-                </div>
-                {/* donate text */}
-                <div className="donate-text">
-                  <p>
-                    {" "}
-                    <i className="bi bi-alarm-fill" /> 150 Days Remaining
-                  </p>
-                </div>
-                {/* progress ber */}
-                <div className="progress-ber-plugin">
-                  <div id="bar8" className="barfiller">
-                    <div className="tipWrap">
-                      <span className="tip" />
-                    </div>
-                    <span className="fill up" data-percentage="65.1" />
-                  </div>
-                  <div className="progress-text">
-                    <p>
-                      Achived : <span>$85,000</span>{" "}
-                    </p>
-                    <p className="progress-text">
-                      {" "}
-                      Goal : <span>$65,000</span>
-                    </p>
-                  </div>
-                </div>
-                {/* progress ber end */}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="charina-donate-single-box upper2">
-              {/* donate thumb */}
-              <div className="donate-thumb">
-                <img src="assets/images/resource/donate6.png" alt="" />
-                {/* thumb text */}
-                <div className="thumb-category">
-                  <span>Foods</span>
-                </div>
-              </div>
-              {/* donate content */}
-              <div className="charina-donate-content">
-                <div className="donate-title">
-                  <h3>
-                    <a href="donations-details.html">
-                      Build home for African poor womens
-                    </a>
-                  </h3>
-                </div>
-                {/* donate text */}
-                <div className="donate-text">
-                  <p>
-                    {" "}
-                    <i className="bi bi-alarm-fill" /> 150 Days Remaining
-                  </p>
-                </div>
-                {/* progress ber */}
-                <div className="progress-ber-plugin">
-                  <div id="bar6" className="barfiller">
-                    <div className="tipWrap">
-                      <span className="tip" />
-                    </div>
-                    <span className="fill up2" data-percentage="70.1" />
-                  </div>
-                  <div className="progress-text">
-                    <p>
-                      Achived : <span>$50,000</span>{" "}
-                    </p>
-                    <p className="progress-text">
-                      {" "}
-                      Goal : <span>$50,000</span>
-                    </p>
-                  </div>
-                </div>
-                {/* progress ber end */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina donate Secton */}
-  {/*==================================================*/}
-  {/*==================================================*/}
-  {/* Start charina call to action */}
-  {/*==================================================*/}
-  <div className="call-to-action">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-6 col-md-6">
-          <div className="call-to-action-box">
-            {/* call to icon */}
-            <div className="call-to-icon">
-              <img src="assets/images/resource/call1.png" alt="" />
-            </div>
-            {/* call to title */}
-            <div className="call-to-title">
-              <h2>Join Us and Become A Volunteer</h2>
-            </div>
-            {/* call to desc */}
-            <div className="call-to-desc">
-              <p>
-                Phosfluorescently cultivate enabled relationships without sticky
-                distinctively empower next-generation
-              </p>
-            </div>
-            {/* call to button */}
-            <div className="call-to-button">
-              <a href="volunteer.html">
-                {" "}
-                Become Volunteer <i className="bi bi-chevron-double-right" />{" "}
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-6 pl-60 responsive">
-          <div className="call-to-action-box">
-            {/* call to icon */}
-            <div className="call-to-icon">
-              <img src="assets/images/resource/call2.png" alt="" />
-            </div>
-            {/* call to title */}
-            <div className="call-to-title">
-              <h2>Start Donating For the Childreens</h2>
-            </div>
-            {/* call to desc */}
-            <div className="call-to-desc">
-              <p>
-                Phosfluorescently cultivate enabled relationships without sticky
-                distinctively empower next-generation
-              </p>
-            </div>
-            {/* call to button */}
-            <div className="call-to-button upper">
-              <a href="donate.html">
-                {" "}
-                Donate Now <i className="bi bi-chevron-double-right" />{" "}
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina call to action */}
-  {/*==================================================*/}
-  {/*==================================================*/}
-  {/* Start charina service section */}
-  {/*==================================================*/}
-  <div className="service-section">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-3 col-md-6 pl-0 pr-0">
-          <div className="charina-section-title white">
-            <h4> Change Everything </h4>
-            <h1> We’re here to </h1>
-            <h1 className="section-text">
-              {" "}
-              Help <span>Theme</span>{" "}
-            </h1>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6">
-          <div className="service-single-box">
-            {/* serivce icon */}
-            <div className="service-icon">
-              <img src="assets/images/resource/service1.png" alt="" />
-            </div>
-            {/* service content */}
-            <div className="service-content">
-              <div className="service-title">
-                <h3>Kids Education</h3>
-              </div>
-              <div className="service-desc">
-                <p>Phosfluorescently to cultivate distinctively empower</p>
-              </div>
-              <div className="service-button">
-                <a href="service.html">Read More</a>
-              </div>
-              <div className="right-arrow">
-                <a href="service.html">
-                  <i className="bi bi-arrow-right" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6">
-          <div className="service-single-box upper">
-            {/* serivce icon */}
-            <div className="service-icon">
-              <img src="assets/images/resource/service2.png" alt="" />
-            </div>
-            {/* service content */}
-            <div className="service-content">
-              <div className="service-title">
-                <h3>Good Health</h3>
-              </div>
-              <div className="service-desc">
-                <p>Phosfluorescently to cultivate distinctively empower</p>
-              </div>
-              <div className="service-button">
-                <a href="service.html">Read More</a>
-              </div>
-              <div className="right-arrow">
-                <a href="service.html">
-                  <i className="bi bi-arrow-right" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6">
-          <div className="service-single-box upper2">
-            {/* serivce icon */}
-            <div className="service-icon">
-              <img src="assets/images/resource/service3.png" alt="" />
-            </div>
-            {/* service content */}
-            <div className="service-content">
-              <div className="service-title">
-                <h3>Healthy Food</h3>
-              </div>
-              <div className="service-desc">
-                <p>Phosfluorescently to cultivate distinctively empower</p>
-              </div>
-              <div className="service-button">
-                <a href="service.html">Read More</a>
-              </div>
-              <div className="right-arrow">
-                <a href="service.html">
-                  <i className="bi bi-arrow-right" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina service section */}
-  {/*==================================================*/}
-  {/*==================================================*/}
-  {/* Start charina events section */}
-  {/*==================================================*/}
-  <div className="events-section">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-6 col-md-6">
-          <div className="charina-section-title">
-            <h4> Upcoming Events </h4>
-            <h1> Ready to Join our Latest </h1>
-            <h1 className="section-text">
-              {" "}
-              Upcoming <span>Events</span>{" "}
-            </h1>
-            <p>
-              Completely create leveraged best practices and B2B interfaces
-              events productivate cutting-edge solutions with go forward supply
-              chains has Compellingly supply 24/7 relationships and effective
-              human capital tha Appropriately target market positioning{" "}
-            </p>
-          </div>
-          {/* button */}
-          <div className="charina-button">
-            <a href="events.html">
-              {" "}
-              Discover More <i className="bi bi-chevron-double-right" />{" "}
-            </a>
-          </div>
-        </div>
-        <div className="col-lg-6">
-          <div className="events-single-box">
-            {/* events thumb */}
-            <div className="events-thumb">
-              <img src="assets/images/resource/event1.jpg" alt="" />
-            </div>
-            {/* events content */}
-            <div className="events-content">
-              <div className="event-text">
+            {/* donate items content */}
+            <div className="donate-items-content">
+              <div className="donate-section-title">
+                <h6> Foods </h6>
+                <h2> Donate Money Orphan Funds </h2>
+                <h2 className="section-text"> Helping their Meals </h2>
                 <p>
                   {" "}
-                  <i className="bi bi-clock" /> 8.30 am{" "}
-                  <span>
-                    {" "}
-                    <i className="bi bi-geo-alt-fill" /> Sandigo, USA
-                  </span>
+                  Phosfluorescently cultivate enabled relationships without
+                  sticky empower next-generation e-commerce network{" "}
                 </p>
               </div>
-              <div className="event-title">
-                <h3>
-                  <a href="event-details.html">
-                    Learn Exactly how we Arrange a Event
-                  </a>
-                </h3>
+              {/* progress ber */}
+              <div className="progress-ber-plugin">
+                <div id="bar6" className="barfiller">
+                  <div className="tipWrap">
+                    <span className="tip" />
+                  </div>
+                  <span className="fill up1" data-percentage={50} />
+                </div>
+                <div className="progress-text">
+                  <p>
+                    Achived : <span>$50,000</span>{" "}
+                  </p>
+                </div>
+                <div className="progress-text-2">
+                  <p className="progress-text">
+                    {" "}
+                    Goal : <span>$50,000</span>
+                  </p>
+                </div>
               </div>
-              <div className="event-button">
-                <a href="event-details.html">
-                  View Detials <i className="bi bi-chevron-double-right" />
-                </a>
-              </div>
-            </div>
-            {/* event date */}
-            <div className="event-date">
-              <span>26 Jun 2022</span>
-            </div>
-          </div>
-          <div className="events-single-box upper">
-            {/* events thumb */}
-            <div className="events-thumb">
-              <img src="assets/images/resource/event2.jpg" alt="" />
-            </div>
-            {/* events content */}
-            <div className="events-content">
-              <div className="event-text">
+              {/* progress ber end */}
+              <div className="donate-date-text">
                 <p>
                   {" "}
-                  <i className="bi bi-clock" /> 8.30 am{" "}
-                  <span>
-                    {" "}
-                    <i className="bi bi-geo-alt-fill" /> Sandigo, USA
-                  </span>
+                  <i className="bi bi-clock-fill" /> 150 Days Remaining
                 </p>
               </div>
-              <div className="event-title">
-                <h3>
-                  <a href="event-details.html">
-                    100+ Orphan Children Bootcampings
-                  </a>
-                </h3>
-              </div>
-              <div className="event-button">
-                <a href="event-details.html">
-                  View Detials <i className="bi bi-chevron-double-right" />
+              {/* button */}
+              <div className="charina-button">
+                <a href="donations.html">
+                  {" "}
+                  Discover More <i className="bi bi-suit-heart" />{" "}
                 </a>
               </div>
             </div>
-            {/* event date */}
-            <div className="event-date">
-              <span>26 Jun 2022</span>
-            </div>
           </div>
-        </div>
-        {/* event shape */}
-        <div className="event-shape dance">
-          <img src="assets/images/resource/most.png" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina events section */}
-  {/*==================================================*/}
-  {/*==================================================*/}
-  {/* Start charina Brand Section */}
-  {/*==================================================*/}
-  <div className="brand-section">
-    <div className="container">
-      <div className="row">
-        <div className="brand-list owl-carousel">
-          <div className="col-lg-12">
-            <div className="single-brand-thumb">
-              <img src="assets/images/resource/brand1.png" alt="" />
+          {/* donate campaigns items */}
+          <div className="donate-campaigns-items">
+            {/* donate thumb */}
+            <div className="donate-thumb2">
+              <img src="assets/images/resource/donate2.jpg" alt="" />
             </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="single-brand-thumb">
-              <img src="assets/images/resource/brand2.png" alt="" />
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="single-brand-thumb">
-              <img src="assets/images/resource/brand3.png" alt="" />
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="single-brand-thumb">
-              <img src="assets/images/resource/brand4.png" alt="" />
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="single-brand-thumb">
-              <img src="assets/images/resource/brand1.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina Brand Secton */}
-  {/*==================================================*/}
-  {/*==================================================*/}
-  {/* Start charina Testimonial section */}
-  {/*==================================================*/}
-  <div className="testimonial-section">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-6 col-md-6">
-          <div className="row">
-            <div className="testimonial_list owl-carousel">
-              <div className="col-lg-12">
-                <div className="testimonial-single-box">
-                  {/* testi-thumb */}
-                  <div className="testi-thumb">
-                    <img src="assets/images/resource/people1.png" alt="" />
+            {/* donate items content */}
+            <div className="donate-items-content">
+              <div className="donate-section-title">
+                <h6> Educations </h6>
+                <h2> Give a Good Education for </h2>
+                <h2 className="section-text"> Orphan Childreens </h2>
+                <p>
+                  {" "}
+                  Phosfluorescently cultivate enabled relationships without
+                  sticky empower next-generation e-commerce network{" "}
+                </p>
+              </div>
+              {/* progress ber */}
+              <div className="progress-ber-plugin">
+                <div id="bar7" className="barfiller">
+                  <div className="tipWrap">
+                    <span className="tip" />
                   </div>
-                  {/* testi content */}
-                  <div className="testimonial-content">
-                    {/* testi icon */}
-                    <div className="testimonial-icon">
-                      <i className="bi bi-quote" />
-                    </div>
-                    {/* testi description */}
-                    <div className="testimonial-desc">
-                      <p>
-                        Completely create leveraged best practices and interface
-                        productivate cutting-edg solutions with go forward
-                        supply Compellingly supply 24/7 relationships and
-                        effective huma Appropriately target market{" "}
-                      </p>
-                    </div>
-                    <div className="testi-title">
-                      <h4> Anjelina Watson </h4>
-                    </div>
-                    <div className="testi-text">
-                      <p> Volunteer </p>
-                    </div>
+                  <span className="fill up1" data-percentage={50} />
+                </div>
+                <div className="progress-text">
+                  <p>
+                    Achived : <span>$50,000</span>{" "}
+                  </p>
+                </div>
+                <div className="progress-text-2">
+                  <p className="progress-text">
+                    {" "}
+                    Goal : <span>$50,000</span>
+                  </p>
+                </div>
+              </div>
+              {/* progress ber end */}
+              <div className="donate-date-text">
+                <p>
+                  {" "}
+                  <i className="bi bi-clock-fill" /> 150 Days Remaining
+                </p>
+              </div>
+              {/* button */}
+              <div className="charina-button">
+                <a href="donations.html">
+                  {" "}
+                  Discover More <i className="bi bi-suit-heart" />{" "}
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* donate campaigns items */}
+          <div className="donate-campaigns-items">
+            {/* donate thumb */}
+            <div className="donate-thumb2">
+              <img src="assets/images/resource/donate3.jpg" alt="" />
+            </div>
+            {/* donate items content */}
+            <div className="donate-items-content">
+              <div className="donate-section-title">
+                <h6> Medical </h6>
+                <h2> Campaign for Buy Medicine </h2>
+                <h2 className="section-text"> for Street Childreen’s </h2>
+                <p>
+                  {" "}
+                  Phosfluorescently cultivate enabled relationships without
+                  sticky empower next-generation e-commerce network{" "}
+                </p>
+              </div>
+              {/* progress ber */}
+              <div className="progress-ber-plugin">
+                <div id="bar5" className="barfiller">
+                  <div className="tipWrap">
+                    <span className="tip" />
                   </div>
-                  {/* testi star */}
-                  <div className="testi-star-list">
-                    <ul>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                    </ul>
-                  </div>
+                  <span className="fill up1" data-percentage={50} />
+                </div>
+                <div className="progress-text">
+                  <p>
+                    Achived : <span>$50,000</span>{" "}
+                  </p>
+                </div>
+                <div className="progress-text-2">
+                  <p className="progress-text">
+                    {" "}
+                    Goal : <span>$50,000</span>
+                  </p>
                 </div>
               </div>
-              <div className="col-lg-12">
-                <div className="testimonial-single-box">
-                  {/* testi-thumb */}
-                  <div className="testi-thumb">
-                    <img src="assets/images/resource/people2.png" alt="" />
-                  </div>
-                  {/* testi content */}
-                  <div className="testimonial-content">
-                    {/* testi icon */}
-                    <div className="testimonial-icon">
-                      <i className="bi bi-quote" />
-                    </div>
-                    {/* testi description */}
-                    <div className="testimonial-desc">
-                      <p>
-                        Completely create leveraged best practices and interface
-                        productivate cutting-edg solutions with go forward
-                        supply Compellingly supply 24/7 relationships and
-                        effective huma Appropriately target market{" "}
-                      </p>
-                    </div>
-                    <div className="testi-title">
-                      <h4> John Alexon </h4>
-                    </div>
-                    <div className="testi-text">
-                      <p> Volunteer </p>
-                    </div>
-                  </div>
-                  {/* testi star */}
-                  <div className="testi-star-list">
-                    <ul>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                      <li>
-                        <i className="bi bi-star-fill" />
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+              {/* progress ber end */}
+              <div className="donate-date-text">
+                <p>
+                  {" "}
+                  <i className="bi bi-clock-fill" /> 150 Days Remaining
+                </p>
+              </div>
+              {/* button */}
+              <div className="charina-button">
+                <a href="donations.html">
+                  {" "}
+                  Discover More <i className="bi bi-suit-heart" />{" "}
+                </a>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-6 pl-50">
-          <div className="charina-section-title white">
-            <h4> Testimonials </h4>
-            <h1> What They’re Talking </h1>
-            <h1 className="section-text">
-              {" "}
-              About <span>Charina</span>{" "}
-            </h1>
-            <p>
-              Completely create leveraged best practices and B2B interfaces
-              events productivate cutting-edge solutions with go forward supply
-              chains has Compellingly supply 24/7 relationships and effective
-              human capital tha Appropriately target market positioning{" "}
-            </p>
-          </div>
-          {/* button */}
-          <div className="charina-button">
-            <a href="about.html">
-              {" "}
-              Discover More <i className="bi bi-chevron-double-right" />{" "}
-            </a>
-          </div>
-        </div>
-        {/* testi shape */}
-        <div className="testi-shape dance">
-          <img src="assets/images/resource/most.png" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina Testimonial Area */}
-  {/*==================================================*/}
-  {/*==================================================*/}
-  {/* Start charina galary Section */}
-  {/*==================================================*/}
-  <div className="galary-section">
-    <div className="container-fluid">
-      <div className="row galary-bg">
-        <div className="col-lg-12">
-          <div className="galary-title text-center">
-            <h2> Our Gallery </h2>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="galary-list owl-carousel">
-          <div className="col-lg-12">
-            <div className="galary-single-box">
-              {/* galary thumb */}
-              <div className="galary-thumb">
-                <img src="assets/images/resource/galary1.jpg" alt="" />
-                {/* galary text */}
-                <div className="galary-text">
-                  <a href="gallery-details.html">Education for Childreen</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="galary-single-box">
-              {/* galary thumb */}
-              <div className="galary-thumb">
-                <img src="assets/images/resource/galary2.jpg" alt="" />
-                {/* galary text */}
-                <div className="galary-text">
-                  <a href="gallery-details.html">Organic Foods for Kids</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="galary-single-box">
-              {/* galary thumb */}
-              <div className="galary-thumb">
-                <img src="assets/images/resource/galary3.jpg" alt="" />
-                {/* galary text */}
-                <div className="galary-text">
-                  <a href="gallery-details.html">Donate Homeless Kids</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="galary-single-box">
-              {/* galary thumb */}
-              <div className="galary-thumb">
-                <img src="assets/images/resource/galary4.jpg" alt="" />
-                {/* galary text */}
-                <div className="galary-text">
-                  <a href="gallery-details.html">Food for Orphan People</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="galary-single-box">
-              {/* galary thumb */}
-              <div className="galary-thumb">
-                <img src="assets/images/resource/galary5.jpg" alt="" />
-                {/* galary text */}
-                <div className="galary-text">
-                  <a href="gallery-details.html">Donate for Happiness</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-12">
-            <div className="galary-single-box">
-              {/* galary thumb */}
-              <div className="galary-thumb">
-                <img src="assets/images/resource/galary6.jpg" alt="" />
-                {/* galary text */}
-                <div className="galary-text">
-                  <a href="gallery-details.html">Education for Childreen</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina galary Section */}
-  {/*==================================================*/}
-  {/*==================================================*/}
-  {/* Start charina Blog Section */}
-  {/*==================================================*/}
-  <div className="volunteers-section">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="charina-section-title text-center pb-50">
-            <h4> Our Volunteers </h4>
-            <h1>
-              {" "}
-              Meet Now our <span>Volunteers</span>{" "}
-            </h1>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-3 col-md-6">
-          <div className="volunteer-single-box upper">
-            {/* volunteer thumb */}
-            <div className="volunteer-thumb">
-              <img src="assets/images/resource/volunteer1.png" alt="" />
-              {/* volunteer social icon */}
-              <div className="volunteer-social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="bi bi-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            {/* volunteer title */}
-            <div className="volunteer-title">
-              <h2>Anjelina Watson</h2>
-            </div>
-            <div className="volunteer-text">
-              <span>Volunteer</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6">
-          <div className="volunteer-single-box">
-            {/* volunteer thumb */}
-            <div className="volunteer-thumb">
-              <img src="assets/images/resource/volunteer2.png" alt="" />
-              {/* volunteer social icon */}
-              <div className="volunteer-social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="bi bi-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            {/* volunteer title */}
-            <div className="volunteer-title">
-              <h2>Louise Campbell</h2>
-            </div>
-            <div className="volunteer-text">
-              <span>Volunteer</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6">
-          <div className="volunteer-single-box upper2">
-            {/* volunteer thumb */}
-            <div className="volunteer-thumb">
-              <img src="assets/images/resource/volunteer3.png" alt="" />
-              {/* volunteer social icon */}
-              <div className="volunteer-social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="bi bi-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            {/* volunteer title */}
-            <div className="volunteer-title">
-              <h2>David E. Meza</h2>
-            </div>
-            <div className="volunteer-text">
-              <span>Volunteer</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6">
-          <div className="volunteer-single-box upper3">
-            {/* volunteer thumb */}
-            <div className="volunteer-thumb">
-              <img src="assets/images/resource/volunteer4.png" alt="" />
-              {/* volunteer social icon */}
-              <div className="volunteer-social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="bi bi-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            {/* volunteer title */}
-            <div className="volunteer-title">
-              <h2>Amy D. Vida</h2>
-            </div>
-            <div className="volunteer-text">
-              <span>Volunteer</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==================================================*/}
-  {/* End charina galary Section */}
-  {/*==================================================*/}
-  {/*==================================================*/}
-  {/* Start charina Donate Section */}
-  {/*==================================================*/}
-  <div className="donate-section style-two">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-6 col-md-6">
-          {/* video button */}
-          <div className="video-button style-two">
-            <div className="video-icon">
-              <a
-                className="video-demo-icon venobox vbox-item"
-                data-vbtype="youtube"
-                data-autoplay="true"
-                href="https://youtu.be/BS4TUd7FJSg"
-              >
-                <i className="bi bi-play-fill" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-6">
-          <div className="charina-section-title white">
-            <h4> Donate for Urgent Cause </h4>
-            <h1> Support for Eating Funds </h1>
-            <h1 className="section-text">
-              {" "}
-              Hungry <span>Peoples</span>{" "}
-            </h1>
-            <p>
-              {" "}
-              Completely create leveraged best practices and B2B interfaces
-              events was productivate cutting-edge solutions with go
-            </p>
-          </div>
-          {/* progress ber */}
-          <div className="progress-ber-plugin">
-            <div id="bar4" className="barfiller">
-              <div className="tipWrap">
-                <span className="tip" />
-              </div>
-              <span className="fill up1" data-percentage={50} />
-            </div>
-            <div className="progress-text">
-              <p>
-                Achived : <span>$50,000</span>{" "}
-              </p>
-            </div>
-            <div className="progress-text-2">
-              <p className="progress-text">
-                {" "}
-                Goal : <span>$50,000</span>
-              </p>
-            </div>
-          </div>
-          {/* progress ber end */}
-          {/* button */}
-          <div className="charina-button">
-            <a href="donations.html">
-              {" "}
-              Discover More <i className="bi bi-suit-heart" />{" "}
-            </a>
-          </div>
-          <div className="donate-date-text">
-            <p>
-              {" "}
-              <i className="bi bi-clock" /> 150 Days Remaining
-            </p>
           </div>
         </div>
       </div>
@@ -1588,11 +767,582 @@ export default function Home() {
   {/* End charina Donate Section */}
   {/*==================================================*/}
   {/*==================================================*/}
-  {/* Start charina Blog Section */}
+  {/* Start charina call to action */}
   {/*==================================================*/}
-  <div className="blog-section">
+  <div className="call-to-action style-two">
+    <div className="container">
+      <div className="row call-bg align-items-center">
+        <div className="col-lg-7 col-md-6">
+          <div className="charina-section-title white">
+            <h4> Join Our Volunteers </h4>
+            <h1>Join Now Our Volunteers &amp;</h1>
+            <h1 className="section-text">
+              {" "}
+              Help the <span>Childreens</span>{" "}
+            </h1>
+          </div>
+        </div>
+        <div className="col-lg-5 col-md-6">
+          {/* button */}
+          <div className="charina-button text-right">
+            <a href="volunteer.html">
+              {" "}
+              Become Vulonteer <i className="bi bi-chevron-double-right" />{" "}
+            </a>
+          </div>
+        </div>
+        {/* call shape */}
+        <div className="call-to-shape dance">
+          <img src="assets/images/resource/heart.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {/*==================================================*/}
+  {/* End charina call to action */}
+  {/*==================================================*/}
+  {/*==================================================*/}
+  {/* Start charina Subscribe Section */}
+  {/*==================================================*/}
+  <div className="counter-section style-two">
     <div className="container">
       <div className="row">
+        <div className="col-lg-6">
+          <div className="row pr-2">
+            <div className="col-lg-6 col-md-6">
+              <div className="counter-single-box up">
+                {/* counter thumb */}
+                <div className="counter-icon">
+                  <img src="assets/images/resource/count1.png" alt="" />
+                </div>
+                {/* counter title */}
+                <div className="counter-title2">
+                  <h1 className="counter">12</h1>
+                  <h1 className="counter-title2">M</h1>
+                </div>
+                {/* counter text */}
+                <div className="counter-text">
+                  <p>Total Donations</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <div className="counter-single-box upper">
+                {/* counter thumb */}
+                <div className="counter-icon">
+                  <img src="assets/images/resource/count2.png" alt="" />
+                </div>
+                {/* counter title */}
+                <div className="counter-title2">
+                  <h1 className="counter">12</h1>
+                  <h1 className="counter-title2">M</h1>
+                </div>
+                {/* counter text */}
+                <div className="counter-text">
+                  <p>Total Donations</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <div className="counter-single-box upper2">
+                {/* counter thumb */}
+                <div className="counter-icon">
+                  <img src="assets/images/resource/count3.png" alt="" />
+                </div>
+                {/* counter title */}
+                <div className="counter-title2">
+                  <h1 className="counter">12</h1>
+                  <h1 className="counter-title2">M</h1>
+                </div>
+                {/* counter text */}
+                <div className="counter-text">
+                  <p>Total Donations</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <div className="counter-single-box upper3">
+                {/* counter thumb */}
+                <div className="counter-icon">
+                  <img src="assets/images/resource/count4.png" alt="" />
+                </div>
+                {/* counter title */}
+                <div className="counter-title2">
+                  <h1 className="counter">12</h1>
+                  <h1 className="counter-title2">M</h1>
+                </div>
+                {/* counter text */}
+                <div className="counter-text">
+                  <p>Total Donations</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 col-md-6 pl-5">
+          <div className="charina-section-title">
+            <h4> Suport Us Help Them </h4>
+            <h1> Join your Hands with Us </h1>
+            <h1 className="section-text">
+              {" "}
+              For Support <span>Them’s</span>{" "}
+            </h1>
+            <p>
+              {" "}
+              Completely create leveraged best practices and B2B interfaces
+              events productivate cutting-edge solutions with go forward supply
+              chains has Compellingly supply 24/7 relationships and effective
+              human capital tha Appropriately target market positioning
+            </p>
+          </div>
+          {/* button */}
+          <div className="charina-button">
+            <a href="contact.html">
+              {" "}
+              Discover More <i className="bi bi-chevron-double-right" />{" "}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/*==================================================*/}
+  {/* Start charina Subscribe Section */}
+  {/*==================================================*/}
+  {/*==================================================*/}
+  {/* Start charina events section */}
+  {/*==================================================*/}
+  <div className="events-section style-two">
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg-2" />
+        <div className="col-lg-10">
+          <div className="charina-section-title pb-60">
+            <h4> Upcoming Events </h4>
+            <h1>
+              {" "}
+              Join Our Latest <span>Events</span>{" "}
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="event-list owl-carousel">
+          <div className="col-lg-12">
+            <div className="events-single-box">
+              {/* events content */}
+              <div className="events-content">
+                {/* event title */}
+                <div className="event-title">
+                  <h4>
+                    {" "}
+                    <span>27</span> February
+                  </h4>
+                  <h3>
+                    <a href="event-details.html">
+                      Learn Exactly how we Arrange a Event
+                    </a>
+                  </h3>
+                </div>
+                {/* event text */}
+                <div className="event-text">
+                  <p>
+                    {" "}
+                    <i className="bi bi-clock" /> 8.30 am{" "}
+                    <span>
+                      {" "}
+                      <i className="bi bi-geo-alt-fill" /> Sandigo, California -
+                      USA
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="events-single-box upper">
+              {/* events content */}
+              <div className="events-content">
+                {/* event title */}
+                <div className="event-title">
+                  <h4>
+                    {" "}
+                    <span>08</span> January
+                  </h4>
+                  <h3>
+                    <a href="event-details.html">
+                      100+ Orphan Childreens Bootcampaigns
+                    </a>
+                  </h3>
+                </div>
+                {/* event text */}
+                <div className="event-text">
+                  <p>
+                    {" "}
+                    <i className="bi bi-clock" /> 8.30 am{" "}
+                    <span>
+                      {" "}
+                      <i className="bi bi-geo-alt-fill" /> Sandigo, California -
+                      USA
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="events-single-box upper2">
+              {/* events content */}
+              <div className="events-content">
+                {/* event title */}
+                <div className="event-title">
+                  <h4>
+                    {" "}
+                    <span>27</span> February
+                  </h4>
+                  <h3>
+                    <a href="event-details.html">
+                      Learn Exactly how we Arrange a Event
+                    </a>
+                  </h3>
+                </div>
+                {/* event text */}
+                <div className="event-text">
+                  <p>
+                    {" "}
+                    <i className="bi bi-clock" /> 8.30 am{" "}
+                    <span>
+                      {" "}
+                      <i className="bi bi-geo-alt-fill" /> Sandigo, California -
+                      USA
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="events-single-box upper">
+              {/* events content */}
+              <div className="events-content">
+                {/* event title */}
+                <div className="event-title">
+                  <h4>
+                    {" "}
+                    <span>08</span> January
+                  </h4>
+                  <h3>
+                    <a href="event-details.html">
+                      100+ Orphan Childreens Bootcampaigns
+                    </a>
+                  </h3>
+                </div>
+                {/* event text */}
+                <div className="event-text">
+                  <p>
+                    {" "}
+                    <i className="bi bi-clock" /> 8.30 am{" "}
+                    <span>
+                      {" "}
+                      <i className="bi bi-geo-alt-fill" /> Sandigo, California -
+                      USA
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/*==================================================*/}
+  {/* End charina events section */}
+  {/*==================================================*/}
+  {/*==================================================*/}
+  {/* Start charina mission Section */}
+  {/*==================================================*/}
+  <div className="mission-sectoin">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="charina-section-title white text-center pb-60">
+            <h4> Upcoming Events </h4>
+            <h1> Our Mission Vission and </h1>
+            <h1>
+              {" "}
+              Targated <span>Goals</span>{" "}
+            </h1>
+          </div>
+        </div>
+        {/* mission shape */}
+        <div className="mission-shape dance">
+          <img src="assets/images/resource/heart.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  {/*==================================================*/}
+  {/* End charina mission section */}
+  {/*==================================================*/}
+  {/*==================================================*/}
+  {/* Start charina mission Section */}
+  {/*==================================================*/}
+  <div className="vission-sectoin">
+    <div className="container">
+      <div className="row vission-bg">
+        <div className="col-lg-12">
+          {/* / tab */}
+          <div className="tab">
+            {/* / tabs */}
+            <ul className="tabs">
+              <li>
+                <a href="#"> Our Mission </a>
+              </li>
+              <li>
+                <a href="#"> How we Work </a>
+              </li>
+              <li>
+                <a href="#"> Our Vission </a>
+              </li>
+              <li>
+                <a href="#"> Goal Achive</a>
+              </li>
+            </ul>
+            {/* tab content */}
+            <div className="tab_content">
+              {/* tabs_item */}
+              <div className="tabs_item">
+                <div className="charina-single-mission-items">
+                  {/* mission thumb */}
+                  <div className="charina-mission-thumb">
+                    <img src="assets/images/resource/tab1.jpg" alt="" />
+                  </div>
+                  {/* mission content */}
+                  <div className="charina-mission-content">
+                    {/* mission title */}
+                    <div className="mission-title">
+                      <h3> Happily People is our Achive </h3>
+                    </div>
+                    {/* mission items desc */}
+                    <div className="mission-items-desc">
+                      <p>
+                        Completely create leveraged best practices and B2B
+                        interfaces productivate cutting-edge solutions with go
+                        forward supply in a Compellingly supply 24/7
+                        relationships{" "}
+                      </p>
+                    </div>
+                    {/* mission service list  */}
+                    <div className="mission-list">
+                      <ul>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Join Our
+                          Charity Team and Helps the{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Donate Money
+                          for Poor Childreens help{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Help for
+                          Orphan Kids Healthy foods{" "}
+                        </li>
+                      </ul>
+                    </div>
+                    {/* mission button */}
+                    <div className="mission-button">
+                      <a href="events.html">
+                        {" "}
+                        Doscover More{" "}
+                        <i className="bi bi-chevron-double-right" />{" "}
+                      </a>
+                    </div>
+                  </div>
+                  {/* / mission content */}
+                </div>
+              </div>
+              {/* tabs_item */}
+              <div className="tabs_item">
+                <div className="charina-single-mission-items">
+                  {/* mission thumb */}
+                  <div className="charina-mission-thumb">
+                    <img src="assets/images/resource/tab2.jpg" alt="" />
+                  </div>
+                  {/* mission content */}
+                  <div className="charina-mission-content">
+                    {/* mission title */}
+                    <div className="mission-title">
+                      <h3> Street Childreen Education </h3>
+                    </div>
+                    {/* mission items desc */}
+                    <div className="mission-items-desc">
+                      <p>
+                        Completely create leveraged best practices and B2B
+                        interfaces productivate cutting-edge solutions with go
+                        forward supply in a Compellingly supply 24/7
+                        relationships{" "}
+                      </p>
+                    </div>
+                    {/* mission service list  */}
+                    <div className="mission-list">
+                      <ul>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Join Our
+                          Charity Team and Helps the{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Donate Money
+                          for Poor Childreens help{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Help for
+                          Orphan Kids Healthy foods{" "}
+                        </li>
+                      </ul>
+                    </div>
+                    {/* mission button */}
+                    <div className="mission-button">
+                      <a href="#">
+                        {" "}
+                        Doscover More{" "}
+                        <i className="bi bi-chevron-double-right" />{" "}
+                      </a>
+                    </div>
+                  </div>
+                  {/* / mission content */}
+                </div>
+              </div>
+              {/* / tabs_item */}
+              <div className="tabs_item">
+                <div className="charina-single-mission-items">
+                  {/* mission thumb */}
+                  <div className="charina-mission-thumb">
+                    <img src="assets/images/resource/tab3.jpg" alt="" />
+                  </div>
+                  {/* mission content */}
+                  <div className="charina-mission-content">
+                    {/* mission title */}
+                    <div className="mission-title">
+                      <h3> Donationg Process System </h3>
+                    </div>
+                    {/* mission items desc */}
+                    <div className="mission-items-desc">
+                      <p>
+                        Completely create leveraged best practices and B2B
+                        interfaces productivate cutting-edge solutions with go
+                        forward supply in a Compellingly supply 24/7
+                        relationships{" "}
+                      </p>
+                    </div>
+                    {/* mission service list  */}
+                    <div className="mission-list">
+                      <ul>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Join Our
+                          Charity Team and Helps the{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Donate Money
+                          for Poor Childreens help{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Help for
+                          Orphan Kids Healthy foods{" "}
+                        </li>
+                      </ul>
+                    </div>
+                    {/* mission button */}
+                    <div className="mission-button">
+                      <a href="#">
+                        {" "}
+                        Doscover More{" "}
+                        <i className="bi bi-chevron-double-right" />{" "}
+                      </a>
+                    </div>
+                  </div>
+                  {/* / mission content */}
+                </div>
+              </div>
+              {/* tabs_item */}
+              <div className="tabs_item">
+                <div className="charina-single-mission-items">
+                  {/* mission thumb */}
+                  <div className="charina-mission-thumb">
+                    <img src="assets/images/resource/tab4.jpg" alt="" />
+                  </div>
+                  {/* mission content */}
+                  <div className="charina-mission-content">
+                    {/* mission title */}
+                    <div className="mission-title">
+                      <h3> Finished Poverty Our Mission </h3>
+                    </div>
+                    {/* mission items desc */}
+                    <div className="mission-items-desc">
+                      <p>
+                        Completely create leveraged best practices and B2B
+                        interfaces productivate cutting-edge solutions with go
+                        forward supply in a Compellingly supply 24/7
+                        relationships{" "}
+                      </p>
+                    </div>
+                    {/* mission service list  */}
+                    <div className="mission-list">
+                      <ul>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Join Our
+                          Charity Team and Helps the{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Donate Money
+                          for Poor Childreens help{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="bi bi-check-circle-fill" /> Help for
+                          Orphan Kids Healthy foods{" "}
+                        </li>
+                      </ul>
+                    </div>
+                    {/* mission button */}
+                    <div className="mission-button">
+                      <a href="#">
+                        {" "}
+                        Doscover More{" "}
+                        <i className="bi bi-chevron-double-right" />{" "}
+                      </a>
+                    </div>
+                  </div>
+                  {/* / mission content */}
+                </div>
+              </div>
+            </div>{" "}
+            {/* / tab_content */}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/*==================================================*/}
+  {/* End charina mission section */}
+  {/*==================================================*/}
+  {/*==================================================*/}
+  {/* Start charina Blog Section */}
+  {/*==================================================*/}
+  <div className="blog-section style-two">
+    <div className="container">
+      <div className="row blog-bg">
         <div className="col-lg-12">
           <div className="charina-section-title text-center pb-50">
             <h4> Read Latest Articles </h4>
@@ -1747,79 +1497,87 @@ export default function Home() {
   {/* Start charina Blog Section */}
   {/*==================================================*/}
   {/*==================================================*/}
-  {/* Start charina Subscribe Section */}
+  {/* Start charina galary Section */}
   {/*==================================================*/}
-  <div className="counter-section">
-    <div className="container">
-      <div className="row align-items-center">
-        <div className="col-lg-6 col-md-6">
-          <div className="charina-section-title">
-            <h4> Suport Us Help Them </h4>
-            <h1>
-              Suport Us For <span>Help</span>{" "}
-            </h1>
-            <p>
-              {" "}
-              Completely create leveraged best practices and B2B interfaces
-              productivate cutting-edge solutions with forward{" "}
-            </p>
+  <div className="galary-section style-two">
+    <div className="container-fluid">
+      <div className="row galary-bg">
+        <div className="col-lg-12">
+          <div className="galary-title text-center">
+            <h2> Our Galary </h2>
           </div>
         </div>
-        <div className="col-lg-6 col-md-6">
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="counter-single-box">
-                {/* counter thumb */}
-                <div className="counter-thumb">
-                  <img src="assets/images/resource/counter1.png" alt="" />
-                  {/* counter title */}
-                  <div className="counter-content">
-                    <div className="counter-title">
-                      <h1 className="counter">12</h1>
-                      <h1 className="counter-title2">M</h1>
-                    </div>
-                  </div>
-                </div>
-                {/* counter text */}
-                <div className="counter-text">
-                  <p>Total Donations</p>
+      </div>
+      <div className="row">
+        <div className="galary-list2 owl-carousel">
+          <div className="col-lg-12">
+            <div className="galary-single-box">
+              {/* galary thumb */}
+              <div className="galary-thumb">
+                <img src="assets/images/resource/galary1.jpg" alt="" />
+                {/* galary text */}
+                <div className="galary-text">
+                  <a href="gallery-details.html">Education for Childreen</a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="counter-single-box">
-                {/* counter thumb */}
-                <div className="counter-thumb">
-                  <img src="assets/images/resource/counter2.png" alt="" />
-                  {/* counter title */}
-                  <div className="counter-content">
-                    <div className="counter-title">
-                      <h1 className="counter">10</h1>
-                      <h1 className="counter-title2">K+</h1>
-                    </div>
-                  </div>
-                </div>
-                {/* counter text */}
-                <div className="counter-text">
-                  <p> Project Founded</p>
+          </div>
+          <div className="col-lg-12">
+            <div className="galary-single-box">
+              {/* galary thumb */}
+              <div className="galary-thumb">
+                <img src="assets/images/resource/galary2.jpg" alt="" />
+                {/* galary text */}
+                <div className="galary-text">
+                  <a href="gallery-details.html">Organic Foods for Kids</a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="counter-single-box">
-                {/* counter thumb */}
-                <div className="counter-thumb">
-                  <img src="assets/images/resource/counter3.png" alt="" />
-                  {/* counter title */}
-                  <div className="counter-content">
-                    <div className="counter-title">
-                      <h1 className="counter">860</h1>
-                    </div>
-                  </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="galary-single-box">
+              {/* galary thumb */}
+              <div className="galary-thumb">
+                <img src="assets/images/resource/galary3.jpg" alt="" />
+                {/* galary text */}
+                <div className="galary-text">
+                  <a href="gallery-details.html">Donate Homeless Kids</a>
                 </div>
-                {/* counter text */}
-                <div className="counter-text">
-                  <p>Total Volunteers</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="galary-single-box">
+              {/* galary thumb */}
+              <div className="galary-thumb">
+                <img src="assets/images/resource/galary4.jpg" alt="" />
+                {/* galary text */}
+                <div className="galary-text">
+                  <a href="gallery-details.html">Food for Orphan People</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="galary-single-box">
+              {/* galary thumb */}
+              <div className="galary-thumb">
+                <img src="assets/images/resource/galary5.jpg" alt="" />
+                {/* galary text */}
+                <div className="galary-text">
+                  <a href="gallery-details.html">Donate for Happiness</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="galary-single-box">
+              {/* galary thumb */}
+              <div className="galary-thumb">
+                <img src="assets/images/resource/galary6.jpg" alt="" />
+                {/* galary text */}
+                <div className="galary-text">
+                  <a href="gallery-details.html">Education for Childreen</a>
                 </div>
               </div>
             </div>
@@ -1829,7 +1587,7 @@ export default function Home() {
     </div>
   </div>
   {/*==================================================*/}
-  {/* Start charina Subscribe Section */}
+  {/* End charina galary Section */}
   {/*==================================================*/}
   {/*==================================================*/}
   {/* Start charina Footer Section */}
@@ -2034,7 +1792,7 @@ export default function Home() {
           name="search-field"
           defaultValue=""
           placeholder="Search Here"
-          required=""
+          required
         />
         <button type="submit">
           <i className="fa fa-search" />
@@ -2045,21 +1803,22 @@ export default function Home() {
   {/*==================================================*/}
   {/* Start Search Popup Area */}
   {/*==================================================*/}
-  {/* jquery js */}
-  {/* bootstrap js */}
-  {/* carousel js */}
-  {/* counterup js */}
-  {/* waypoints js */}
-  {/* wow js */}
-  {/* imagesloaded js */}
-  {/* venobox js */}
-  {/* ajax mail js */}
-  {/*  animated-text js */}
-  {/* venobox min js */}
-  {/* isotope js */}
-  {/* jquery meanmenu js */}
-  {/* jquery scrollup js */}
-  {/* barfiller js */}
-  {/* theme js */}
+  <Script defer src="assets/js/vendor/modernizr-3.5.0.min.js" />
+  <Script defer src="assets/js/vendor/jquery-3.2.1.min.js" />
+  <Script defer src="assets/js/bootstrap.min.js" />
+  <Script defer src="assets/js/owl.carousel.min.js" />
+  <Script defer src="assets/js/jquery.counterup.min.js" />
+  <Script defer src="assets/js/waypoints.min.js" />
+  <Script defer src="assets/js/wow.js" />
+  <Script defer src="assets/js/imagesloaded.pkgd.min.js" />
+  <Script defer src="venobox/venobox.js" />
+  <Script defer src="assets/js/ajax-mail.js" />
+  <Script defer src="assets/js/animated-text.js" />
+  <Script defer src="venobox/venobox.min.js" />
+  <Script defer src="assets/js/isotope.pkgd.min.js" />
+  <Script defer src="assets/js/jquery.meanmenu.js" />
+  <Script defer src="assets/js/jquery.scrollUp.js" />
+  <Script defer src="assets/js/jquery.barfiller.js" />
+  <Script defer src="assets/js/theme.js" />
 </>
 }
