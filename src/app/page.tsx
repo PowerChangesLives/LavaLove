@@ -1,7 +1,12 @@
+import React from 'react';
 import Image from "next/image";
+
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 
 export default function Home() {
   return <>
+  <Navbar />
   {/*==================================================*/}
   {/* Start charina Header Top Menu Area Css */}
   {/*==================================================*/}
@@ -59,7 +64,7 @@ export default function Home() {
   {/*==================================================*/}
   {/* Start charina Main Menu Area */}
   {/*==================================================*/}
-  <div id="sticky-header" className="charina_nav_manu align-items-center">
+  {/*<div id="sticky-header" className="charina_nav_manu align-items-center">
     <div className="container-fluid">
       <div className="row align-items-center">
         <div className="col-lg-2">
@@ -208,9 +213,9 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </div>
+  </div>*/}
   {/* charina Mobile Menu Area */}
-  <div className="mobile-menu-area sticky d-sm-block d-md-block d-lg-none ">
+  {/*<div className="mobile-menu-area sticky d-sm-block d-md-block d-lg-none ">
     <div className="mobile-menu">
       <nav className="charina_menu">
         <ul className="nav_scroll">
@@ -318,7 +323,7 @@ export default function Home() {
         </ul>
       </nav>
     </div>
-  </div>
+  </div>//*/}
   {/*==================================================*/}
   {/* End charina Main Menu Area */}
   {/*==================================================*/}
@@ -1834,7 +1839,8 @@ export default function Home() {
   {/*==================================================*/}
   {/* Start charina Footer Section */}
   {/*==================================================*/}
-  <div className="footer-section">
+  <Footer />
+  {/* <div className="footer-section">
     <div className="container">
       <div className="row footer-bg">
         <div className="col-lg-4 col-md-6">
@@ -1988,7 +1994,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/*==================================================*/}
   {/* End charina Footer Section */}
   {/*==================================================*/}
