@@ -12,47 +12,6 @@ export default function Home() {
       {/* Start charina hero section */}
       {/*==================================================*/}
       <div className='hero_list owl-carousel responsive'>
-        <div className='hero-section hero3 d-flex align-items-center'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12'>
-                {/* hero content */}
-                <div className='hero-content text-center'>
-                  {/* hero icon */}
-                  <div className='hero-icon dance'>
-                    <img src='assets/images/resource/heart2.png' alt='' />
-                  </div>
-                  {/* hero sub title */}
-                  <div className='hero-sub-title'>
-                    <h5>Helping Today, Helping Tomorrow</h5>
-                  </div>
-                  {/* hero title */}
-                  <div className='hero-title'>
-                    <h1> Let’s Give them Your</h1>
-                    <h1>
-                      {' '}
-                      Helping <span>Hands</span>{' '}
-                    </h1>
-                  </div>
-                  {/* hero button */}
-                  <div className='hero-button'>
-                    <a href='about.html'>
-                      {' '}
-                      Discover More <i className='bi bi-chevron-double-right' />
-                    </a>
-                  </div>
-                  <div className='hero-button'>
-                    <a href='volunteer.html'>
-                      {' '}
-                      Join Volunteer{' '}
-                      <i className='bi bi-chevron-double-right' />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className='hero-section hero4 d-flex align-items-center'>
           <div className='container'>
             <div className='row'>
@@ -69,23 +28,22 @@ export default function Home() {
                   </div>
                   {/* hero title */}
                   <div className='hero-title'>
-                    <h1> Giving a Helpline</h1>
+                    <h1> Giving a Helping</h1>
                     <h1>
                       {' '}
-                      hand for the <span>Homeless</span>{' '}
+                      Hand for the <span>Homeless</span>{' '}
                     </h1>
                   </div>
                   {/* hero button */}
                   <div className='hero-button'>
-                    <a href='about.html'>
-                      {' '}
-                      Discover More <i className='bi bi-chevron-double-right' />
+                    <a href='/about'>
+                      Learn More
+                      <i className='bi bi-chevron-double-right' />
                     </a>
                   </div>
                   <div className='hero-button'>
-                    <a href='volunteer.html'>
-                      {' '}
-                      Join Volunteer{' '}
+                    <a href='/volunteer'>
+                      Volunteer
                       <i className='bi bi-chevron-double-right' />
                     </a>
                   </div>
@@ -119,8 +77,8 @@ export default function Home() {
                   {/* feature desc */}
                   <div className='feature-description'>
                     <p>
-                      Leveraged best practices and B2B edge productivate cutting
-                      solution
+                      We need resources and energy to keep LavaLove going.
+                      The best way to help is through your generous donations.
                     </p>
                   </div>
                 </div>
@@ -147,8 +105,8 @@ export default function Home() {
                   {/* feature desc */}
                   <div className='feature-description'>
                     <p>
-                      Leveraged best practices and B2B edge productivate cutting
-                      solution
+                      Personnel on the truck aid in providing amenities and showers for all.
+                      Your contribution can change a life.
                     </p>
                   </div>
                 </div>
@@ -271,10 +229,10 @@ export default function Home() {
           <div className='row'>
             <div className='col-lg-12'>
               <div className='charina-section-title white pb-70 text-center'>
-                <h4> Start Donating Theme </h4>
+                <h4>LavaLove{"'"}s Mission</h4>
                 <h1>
                   {' '}
-                  Our Ongoing <span>Projects</span>{' '}
+                  What we <span>Do</span>{' '}
                 </h1>
               </div>
             </div>
@@ -288,7 +246,7 @@ export default function Home() {
                 </div>
                 {/* project title */}
                 <div className='project-title'>
-                  <h3>Free Medicals</h3>
+                  <h3>Ancillary Services</h3>
                 </div>
               </div>
             </div>
@@ -300,7 +258,7 @@ export default function Home() {
                 </div>
                 {/* project title */}
                 <div className='project-title'>
-                  <h3>Foods and Water</h3>
+                  <h3>Project F.E.E.D</h3>
                 </div>
               </div>
             </div>
@@ -324,7 +282,7 @@ export default function Home() {
                 </div>
                 {/* project title */}
                 <div className='project-title'>
-                  <h3>Zero Proverty</h3>
+                  <h3>Restoring Dignity</h3>
                 </div>
               </div>
             </div>
