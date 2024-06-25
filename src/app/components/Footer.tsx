@@ -17,9 +17,9 @@ export default function Footer() {
                 </div>
                 <div className='company-info-desc'>
                   <p>
-                    {' '}
-                    Distinctively foster optimal manufactured without real-time
-                    e-markets. Energistically productize compelling{' '}
+                    Restoring the dignity of the homeless across
+                    New Jersey towards building a better life
+                    and a stronger community.
                   </p>
                 </div>
                 <div className='footer-button'>
@@ -82,16 +82,9 @@ export default function Footer() {
                   </div>
                   {/* footer info desc */}
                   <div className='footer-info-desc'>
-                    <p> +880 392 (4560) 290 </p>
-                    <p>example@gmail.com</p>
-                  </div>
-                  {/* wedget title */}
-                  <div className='footer-wedget-title'>
-                    <h5> Address </h5>
-                  </div>
-                  {/* footer info desc */}
-                  <div className='footer-info-desc'>
-                    <p> 602/B, Sandigo-USA </p>
+                    {/* TODO: link to tel: and mailto: */}
+                    <p>+1 973 (866) 5531</p>
+                    <p>info@lavalovenj.com</p>
                   </div>
                 </div>
               </div>
@@ -138,7 +131,7 @@ export default function Footer() {
           <div className='row'>
             <div className='col-lg-6 col-md-6'>
               <div className='footer-bottom-content-copy'>
-                <p> Copyright © charina all rights reserved</p>
+                <p>Copyright © {new Date().getFullYear()} Power Changes Lives; All Rights Reserved.</p>
               </div>
             </div>
             <div className='col-lg-6 col-md-6'>
