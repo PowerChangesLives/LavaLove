@@ -72,7 +72,7 @@ export default function Home() {
                     <h1> Giving a Helpline</h1>
                     <h1>
                       {' '}
-                      hand for <span>Childreens</span>{' '}
+                      hand for the <span>Homeless</span>{' '}
                     </h1>
                   </div>
                   {/* hero button */}

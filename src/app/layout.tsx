@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'LavaLove',
-  description: 'LavaLove provides showers and basic care to the New Jersey homeless.',
+  description:
+    'LavaLove provides showers and basic care to the New Jersey homeless.',
 };
 
 export default function RootLayout({
@@ -20,14 +21,12 @@ export default function RootLayout({
         <meta charSet='UTF-8' />
         <meta httpEquiv='x-ua-compatible' content='ie=edge' />
         <title>LavaLove</title>
-        <meta name='description' content='LavaLove provides showers and basic care to the New Jersey homeless.' />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link
-          rel='icon'
-          type='image/png'
-          sizes='any'
-          href='/favicon.png'
+        <meta
+          name='description'
+          content='LavaLove provides showers and basic care to the New Jersey homeless.'
         />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='icon' type='image/png' sizes='any' href='/favicon.png' />
         {/*bootstrap CSS*/}
         <link
           rel='stylesheet'
