@@ -12,11 +12,11 @@ export default function Navbar() {
           <div className='row align-items-center'>
             <div className='col-lg-2'>
               <div className='logo'>
-                <a className='logo_img' href='index.html' title='charina'>
+                <a className='logo_img' href='/' title='LavaLove'>
                   <img src='assets/images/logo.png' alt='' />
                 </a>
-                <a className='main_sticky' href='index.html' title='charina'>
-                  <img src='assets/images/logo2.png' alt='astute' />
+                <a className='main_sticky' href='/' title='LavaLove'>
+                  <img src='assets/images/logo.png' alt='astute' />
                 </a>
               </div>
             </div>
@@ -24,20 +24,9 @@ export default function Navbar() {
               <nav className='charina_menu'>
                 <ul className='nav_scroll'>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       Home{' '}
-                      <span>
-                        <i className='bi bi-chevron-down' />
-                      </span>
                     </a>
-                    <ul className='sub-menu'>
-                      <li>
-                        <a href='index.html'>Home Page 01</a>
-                      </li>
-                      <li>
-                        <a href='index-2.html'>Home Page 02</a>
-                      </li>
-                    </ul>
                   </li>
                   <li>
                     <a href='#'>
@@ -63,7 +52,7 @@ export default function Navbar() {
                         <a href='gallery-details.html'>Gallery Details</a>
                       </li>
                       <li>
-                        <a href='contact-us.html'>Contact Us</a>
+                        <a href='/contact'>Contact Us</a>
                       </li>
                     </ul>
                   </li>
@@ -144,20 +133,9 @@ export default function Navbar() {
           <nav className='charina_menu'>
             <ul className='nav_scroll'>
               <li>
-                <a href='#'>
-                  Home{' '}
-                  <span>
-                    <i className='bi bi-chevron-down' />
-                  </span>
+                <a href='/'>
+                  Home
                 </a>
-                <ul className='sub-menu'>
-                  <li>
-                    <a href='index.html'>Home Page 01</a>
-                  </li>
-                  <li>
-                    <a href='index-2.html'>Home Page 02</a>
-                  </li>
-                </ul>
               </li>
               <li>
                 <a href='#'>
@@ -183,7 +161,7 @@ export default function Navbar() {
                     <a href='gallery-details.html'>Gallery Details</a>
                   </li>
                   <li>
-                    <a href='contact-us.html'>Contact Us</a>
+                    <a href='/contact'>Contact Us</a>
                   </li>
                 </ul>
               </li>
@@ -242,7 +220,7 @@ export default function Navbar() {
                 </ul>
               </li>
               <li>
-                <a href='contact-us.html'>Contact</a>
+                <a href='/contact'>Contact</a>
               </li>
             </ul>
           </nav>
