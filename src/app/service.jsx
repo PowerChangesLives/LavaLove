@@ -462,7 +462,7 @@
         <div className='col-lg-6 col-md-6'>
           {/* about thumb */}
           <div className='about-thumb2'>
-            <img src='assets/images/resource/about2.png' alt />
+            <img src='assets/images/resource/about2.jpg' alt />
             {/* about counter */}
             <div className='about-couner'>
               <div className='about-counter-thumb'>

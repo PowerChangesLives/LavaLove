@@ -85,7 +85,7 @@ export default function Home() {
                 <div className='feature-button'>
                   <a href='service.html'>
                     {' '}
-                    Read More <i className='bi bi-arrow-right' />
+                    Donate Now <i className='bi bi-arrow-right' />
                   </a>
                 </div>
               </div>
@@ -113,7 +113,7 @@ export default function Home() {
                 <div className='feature-button'>
                   <a href='service.html'>
                     {' '}
-                    Read More <i className='bi bi-arrow-right' />
+                    Volunteer <i className='bi bi-arrow-right' />
                   </a>
                 </div>
               </div>
@@ -133,15 +133,15 @@ export default function Home() {
                   {/* feature desc */}
                   <div className='feature-description'>
                     <p>
-                      Leveraged best practices and B2B edge productivate cutting
-                      solution
+                      Want to support us in different ways?<br />
+                      Come see our events and help bolster <br />
+                      the community around LavaLove.
                     </p>
                   </div>
                 </div>
                 <div className='feature-button'>
                   <a href='service.html'>
-                    {' '}
-                    Read More <i className='bi bi-arrow-right' />
+                    See Events <i className='bi bi-arrow-right' />
                   </a>
                 </div>
               </div>
@@ -151,16 +151,16 @@ export default function Home() {
             <div className='col-lg-6'>
               {/* about thumb */}
               <div className='about-thumb2'>
-                <img src='assets/images/resource/about2.png' alt='' />
+                <img src='assets/images/resource/about2.jpg' alt='' className="base-home-image" />
                 {/* about counter */}
                 <div className='about-couner'>
                   <div className='about-counter-thumb'>
                     <div className='about-counter-title'>
-                      <h2 className='counter'>12</h2>
+                      <h2 className='counter'>93</h2>
                       <h2>K+</h2>
                     </div>
                     <div className='counter-text2'>
-                      <p>Volunteers</p>
+                      <p>Water Insecure</p>
                     </div>
                   </div>
                 </div>
@@ -168,17 +168,13 @@ export default function Home() {
             </div>
             <div className='col-lg-6 pl-4 pr-0'>
               <div className='charina-section-title'>
-                <h4> Join Us and Start Donating </h4>
-                <h1> Make your Goals Always to </h1>
-                <h1 className='section-text'>
-                  {' '}
-                  Helps <span>Poor People</span>{' '}
-                </h1>
+                <h4>Join Us and Start Donating</h4>
+                <h1>Make it your goal to support the <span>Homeless</span>.</h1>
                 <p>
-                  {' '}
-                  Phosfluorescently cultivate enabled relationships without
-                  sticky practices distinctively empower next-generation
-                  e-commerce network{' '}
+                LavaLove® is a 29 foot custom-designed trailer,
+                which provides a multi-unit shower, sink, toilet, washing machine,
+                dryer, barber station and resource room for ancillary services 
+                for our most vulnerable in the community.
                 </p>
               </div>
               {/* about items */}

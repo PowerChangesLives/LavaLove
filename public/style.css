@@ -885,6 +885,7 @@ p.charina-icon i {
 }
 .counter-text2 p {
     font-weight: 600;
+    font-size: 0.75rem;
     color: #fff5f1;
 }
 
@@ -5357,6 +5358,6 @@ button.tablink:hover {
     transition: all 200ms linear !important;
 }
 
-
-
-
+.base-home-image {
+    border-radius: 1rem;
+}
