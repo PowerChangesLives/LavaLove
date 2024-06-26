@@ -89,33 +89,6 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
-              <div className='widget-thumb-menu'>
-                {/* widget title */}
-                <h4 className='widget-title'> Our Galary </h4>
-                {/* widget content */}
-                <div className='footer-widget-thumb'>
-                  <div className='items'>
-                    <img src='assets/images/resource/footer1.png' alt='' />
-                  </div>
-                  <div className='items'>
-                    <img src='assets/images/resource/footer2.png' alt='' />
-                  </div>
-                  <div className='items'>
-                    <img src='assets/images/resource/footer3.png' alt='' />
-                  </div>
-                  <div className='items'>
-                    <img src='assets/images/resource/footer4.png' alt='' />
-                  </div>
-                  <div className='items'>
-                    <img src='assets/images/resource/footer5.png' alt='' />
-                  </div>
-                  <div className='items'>
-                    <img src='assets/images/resource/footer6.png' alt='' />
-                  </div>
-                </div>
-              </div>
-            </div>
             {/* footer shape */}
             <div className='footer-shape bounce-animate'>
               <img src='assets/images/resource/footer-arrow.png' alt='' />

@@ -84,7 +84,7 @@ export default function Navbar() {
                     </a>
                     <ul className='sub-menu'>
                       <li>
-                        <a href='events.html'>Events</a>
+                        <a href='/events'>Events</a>
                       </li>
                       <li>
                         <a href='event-details.html'>Event Details</a>
@@ -193,7 +193,7 @@ export default function Navbar() {
                 </a>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='events.html'>Events</a>
+                    <a href='/events'>Events</a>
                   </li>
                   <li>
                     <a href='event-details.html'>Event Details</a>
