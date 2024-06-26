@@ -4951,7 +4951,7 @@ button.icons {
 }
 /*contact info*/
 .contact-info-section {
-    background: url(assets/images/resource/contact-inf.jpg);
+    background: #0D0E14;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

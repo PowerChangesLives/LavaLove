@@ -78,13 +78,20 @@ export default function Footer() {
                 <div className='footer-widget-content'>
                   {/* wedget title */}
                   <div className='footer-wedget-title'>
-                    <h5> Phone Number </h5>
+                    <h5>Phone Number</h5>
                   </div>
                   {/* footer info desc */}
                   <div className='footer-info-desc'>
                     {/* TODO: link to tel: and mailto: */}
-                    <p>+1 973 (866) 5531</p>
-                    <p>info@lavalovenj.com</p>
+                    <p><a className="text-white" href="tel:+19738665531">+1 973-866-5531</a></p>
+                  </div>
+                  <div className='footer-wedget-title'>
+                    <h5>E-mail</h5>
+                  </div>
+                  {/* footer info desc */}
+                  <div className='footer-info-desc'>
+                    {/* TODO: link to tel: and mailto: */}
+                    <p><a className="text-white" href="mailto:info@lavalovenj.com">info@lavalovenj.com</a></p>
                   </div>
                 </div>
               </div>
