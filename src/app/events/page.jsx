@@ -152,57 +152,17 @@ export default function Events() {
                   </p>
                 </div>
               </div>
-              {/* START OGRANIZER INFO */}
-              {/* widget items */}
-              <div className='organizer-items'>
-                {/* organizer thumb */}
-                <div className='organizer-thumb'>
-                  <img src='assets/images/resource/organiz2.png' alt />
-                </div>
-                {/* organizer content */}
-                <div className='organiz-content'>
-                  <h4>{mainEvent.organizerName}</h4>
-                  <h6>{mainEvent.organizerRole}</h6>
-                  <p>Created : {mainEvent.created}</p>
-                </div>
-                {/* organizer social */}
-                <div className='organizer-social'>
-                  <ul>
-                    {mainEvent.organizerFacebook && (
-                      <li>
-                        <a href={mainEvent.organizerFacebook}>
-                          <i className='fab fa-facebook-f' />
-                        </a>
-                      </li>
-                    )}
-                    {mainEvent.organizerTwitter && (
-                      <li>
-                        <a href={mainEvent.organizerTwitter}>
-                          <i className='bi bi-twitter' />
-                        </a>
-                      </li>
-                    )}
-                    {mainEvent.organizerLinkedIn && (
-                      <li>
-                        <a href={mainEvent.organizerLinkedIn}>
-                          <i className='fab fa-linkedin-in' />
-                        </a>
-                      </li>
-                    )}
-                  </ul>
-                </div>
-              </div>
-              {/* END ORGANIZER INFO */}
               {/* END CURRENT EVENT INFO */}
-              {/* widget items */}
+
               {/* UPCOMING EVENTS */}
               <div className='categories-title'>
                 <h4> Upcoming Events </h4>
               </div>
 
-              <div>{mainEvent.title} Main Event (REMOVE LATER)</div>
-
-              <div className='widget-items'>
+              <div
+                className='widget-items'
+                style={{ marginTop: '-15px', marginBottom: '40px' }}
+              >
                 {threeUpcomingEvents.map((event, i) => {
                   return (
                     <div className='widget-recent-post upper d-flex' key={i}>
@@ -225,16 +185,6 @@ export default function Events() {
                     </div>
                   );
                 })}
-                <p> (Potential button to view all upcoming events ^^^ ) </p>
-              </div>
-
-              <div className='categories-title'>
-                <p> (Or maybe add button under the orange box ) </p>
-                <p>
-                  {' '}
-                  (Maybe leave each upcoming and past event in their own
-                  seperate orange box?)
-                </p>
               </div>
 
               {/* PAST EVENTS */}
@@ -243,9 +193,12 @@ export default function Events() {
                 <h4> Past Events </h4>
               </div>
 
-              {threePreviousEvents.map((event, i) => (
-                <div className='widget-items' key={i}>
-                  <div className='widget-recent-post upper d-flex'>
+              <div
+                className='widget-items'
+                style={{ marginTop: '-15px', marginBottom: '40px' }}
+              >
+                {threePreviousEvents.map((event, i) => (
+                  <div className='widget-recent-post upper d-flex' key={i}>
                     <div className='rpost-thumb'>
                       <a href='blog-details.html'>
                         <img
@@ -263,11 +216,7 @@ export default function Events() {
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
-
-              <div className='categories-title'>
-                <p> (Potential area to view all previous events ^^^ ) </p>
+                ))}
               </div>
 
               {/* END PAST EVENTS */}
