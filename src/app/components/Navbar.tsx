@@ -92,25 +92,6 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li>
-                    <a href='#'>
-                      Blog{' '}
-                      <span>
-                        <i className='bi bi-chevron-down' />
-                      </span>
-                    </a>
-                    <ul className='sub-menu'>
-                      <li>
-                        <a href='blog-grid.html'>Blog Grid</a>
-                      </li>
-                      <li>
-                        <a href='blog.html'>Blog List</a>
-                      </li>
-                      <li>
-                        <a href='blog-details.html'>Blog Details</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
                     <a href='/contact'>Contact</a>
                   </li>
                 </ul>

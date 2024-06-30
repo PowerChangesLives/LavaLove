@@ -1459,7 +1459,7 @@ p.progress-text {
 --< charina call to action Css -->
 ======================================================**/
 .call-to-action {
-    background: url(assets/images/resource/call-bg.png);
+    background: gray;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1536,7 +1536,7 @@ p.progress-text {
 
 /*call to action style two*/
 .style-two.call-to-action {
-    background: url(assets/images/resource/call-bg2.png);
+    background: darkslategray;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
