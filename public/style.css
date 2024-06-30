@@ -3923,7 +3923,7 @@ span.flaticon-multiply i {
  ==================================================-*/
 
 .breatcam-section {
-    background: url(assets/images/resource/breatcome-bg.png);
+    background: url(assets/images/resource/breatcome-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -4955,7 +4955,7 @@ button.icons {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 82px 0 190px;
+    padding: 82px 0;
 }
 
 .contact-information {

@@ -20,7 +20,7 @@ export default function Contact() {
             <div className='breatcam-menu'>
               <ul>
                 <li>
-                  <a href='index.html'>Home</a>
+                  <a href='/'>Home</a>
                 </li>
                 <li>
                   <span>/</span>Contact Us{' '}
@@ -49,7 +49,7 @@ export default function Contact() {
           <div className='charina-section-title white text-center'>
             <h4> How to Find Us </h4>
             <h1>
-              Contact us <span>Online</span>
+              Contact Us <span>Online</span>
             </h1>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function Contact() {
         <div className='col-lg-4 col-md-6'>
           <div className='contact-information'>
             <div className='contacts-icon upper'>
-              <i className='bi bi-telephone' />
+              <i className='bi bi-envelope' />
             </div>
             <div className='contacts-title'>
               <h5>Mail Us</h5>
@@ -80,11 +80,11 @@ export default function Contact() {
         <div className='col-lg-4 col-md-6'>
           <div className='contact-information'>
             <div className='contacts-icon upper2'>
-              <i className='bi bi-telephone' />
+              <i className='bi bi-globe-americas' />
             </div>
             <div className='contacts-title'>
-              <h5>Call Us Now</h5>
-              <h6>example123@gmail.com</h6>
+              <h5>Find Us</h5>
+              <h6>403 Welsh Place, Morris Plains, NJ 07950</h6>
             </div>
           </div>
         </div>
