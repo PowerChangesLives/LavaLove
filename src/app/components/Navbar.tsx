@@ -25,34 +25,43 @@ export default function Navbar() {
                 <ul className='nav_scroll'>
                   <li>
                     <a href='/'>
-                      Home{' '}
+                      Home
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      Pages{' '}
+                      About
                       <span>
                         <i className='bi bi-chevron-down' />
                       </span>
                     </a>
                     <ul className='sub-menu'>
                       <li>
-                        <a href='about.html'>About</a>
+                        <a href='https://powerchangeslives.com'>Power Changes Lives <i className="bi bi-box-arrow-up-right"></i></a>
                       </li>
                       <li>
-                        <a href='volunteer.html'>Volunteer</a>
+                        <a href='volunteer.html'>Expansion Plan</a>
                       </li>
                       <li>
-                        <a href='volunteer-2.html'>Volunteer Two</a>
+                        <a href='/documents/operational-budget.pdf'>Operational Costs</a>
                       </li>
                       <li>
-                        <a href='gallery.html'>Gallery </a>
+                        <a href='/about/partners'>Partners and Sponsors</a>
                       </li>
                       <li>
-                        <a href='gallery-details.html'>Gallery Details</a>
+                        <a href='/documents/portfolio.pdf'>Portfolio</a>
                       </li>
                       <li>
-                        <a href='/contact'>Contact Us</a>
+                        <a href='volunteer.html'>Public Reporting</a>
+                      </li>
+                      <li>
+                        <a href='/documents/irs-form-990-2020'>IRS Form 990 (2020)</a>
+                      </li>
+                      <li>
+                        <a href='/documents/irs-form-990-2020'>IRS Form 990 (2019)</a>
+                      </li>
+                      <li>
+                        <a href='/about/specs'>Specs</a>
                       </li>
                     </ul>
                   </li>
