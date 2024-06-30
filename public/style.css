@@ -5826,44 +5826,6 @@ button.tablink:hover {
     }
 }
 
-.loader-wrapper .loder-section {
-    position: fixed;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    background: #111;
-    z-index: 2;
-}
-
-.loader-wrapper .loder-section.left-section {
-    left: 0;
-    transition: 1s 1.4s ease;
-}
-
-.loader-wrapper .loder-section.right-section {
-    right: 0;
-    transition: 1s 1.4s ease;
-}
-
-/*/ When page loaded /*/
-
-.loaded .loder-section.left-section {
-    left: -100%;
-}
-
-.loaded .loder-section.right-section {
-    right: -100%;
-}
-
-.loaded .loader-wrapper {
-    visibility: hidden;
-}
-
-.loaded .loader {
-    top: -100%;
-    opacity: 0;
-}
-
 /*
 <!-- ============================================================== -->
 <!--Scrollup Button Section -->
