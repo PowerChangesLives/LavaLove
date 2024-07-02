@@ -110,7 +110,7 @@ export default function RootLayout({
         {/*bootstrap icons*/}
         <link
           rel='stylesheet'
-          href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css'
+          href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css'
         />
       </head>
       <body className={inter.className}>{children}</body>
