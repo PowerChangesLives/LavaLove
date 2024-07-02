@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+
+:root{
+    --primary-color: #89CFF0;
+    --secondary-color: #F46FA1;
+    --tertiary-color: #93C83E;
+    --quaternary-color: #AD5691;
+}
+
+.hover-secondary:hover {
+    background-color: var(--secondary-color);
+}

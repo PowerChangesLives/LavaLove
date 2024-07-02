@@ -1,3 +1,4 @@
+import '../globals.css';
 export default function Navbar() {
   return (
     <>
@@ -118,7 +119,7 @@ export default function Navbar() {
             </div>
             <div className='col-lg-2 pl-0'>
               <div className='header-button'>
-                <a href='donate.html'>
+                <a href='donate.html' style={{ backgroundColor: 'var(--primary-color)' }} className="hover-secondary">
                   {' '}
                   Donate Now <i className='bi bi-suit-heart' />{' '}
                 </a>

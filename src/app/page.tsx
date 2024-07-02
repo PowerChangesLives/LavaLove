@@ -487,7 +487,7 @@ export default function Home() {
                 <h1>Join Now Our Volunteers &amp;</h1>
                 <h1 className='section-text'>
                   {' '}
-                  Help the <span>Childreens</span>{' '}
+                  Help the <span>Childrens</span>{' '}
                 </h1>
               </div>
             </div>
@@ -496,7 +496,7 @@ export default function Home() {
               <div className='charina-button text-right'>
                 <a href='volunteer.html'>
                   {' '}
-                  Become Vulonteer <i className='bi bi-chevron-double-right' />{' '}
+                  Become Volunteer <i className='bi bi-chevron-double-right' />{' '}
                 </a>
               </div>
             </div>
