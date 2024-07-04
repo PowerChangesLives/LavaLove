@@ -30,6 +30,11 @@ export default function Navbar() {
                     </a>
                   </li>
                   <li>
+                    <a href='/advertise'>
+                      Advertise
+                    </a>
+                  </li>
+                  <li>
                     <a href='#'>
                       About
                       <span>

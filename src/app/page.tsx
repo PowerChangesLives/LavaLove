@@ -3,6 +3,7 @@
 import EndScripts from './components/EndScripts';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import ScrollUp from './components/ScrollUp';
 
 export default function Home() {
   return (
@@ -863,26 +864,7 @@ export default function Home() {
       {/* End charina mission section */}
       {/*==================================================*/}
       <Footer />
-      {/*==================================================*/}
-      {/* Start scrollup section Section */}
-      {/*==================================================*/}
-      <div className='prgoress_indicator active-progress'>
-        <svg
-          className='progress-circle svg-content'
-          width='100%'
-          height='100%'
-          viewBox='-1 -1 102 102'
-        >
-          <path
-            d='M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98'
-            style={{
-              transition: 'stroke-dashoffset 10ms linear 0s',
-              strokeDasharray: '307.919, 307.919',
-              strokeDashoffset: '270.456',
-            }}
-          />
-        </svg>
-      </div>
+      <ScrollUp />
       {/*==================================================*/}
       {/* Start scrollup section Section */}
       {/*==================================================*/}
