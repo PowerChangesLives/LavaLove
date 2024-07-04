@@ -14,10 +14,10 @@ export default function Navbar() {
             <div className='col-lg-2'>
               <div className='logo'>
                 <a className='logo_img' href='/' title='LavaLove'>
-                  <img src='assets/images/logo.png' alt='' />
+                  <img src='/assets/images/logo.png' alt='' />
                 </a>
                 <a className='main_sticky' href='/' title='LavaLove'>
-                  <img src='assets/images/logo.png' alt='astute' />
+                  <img src='/assets/images/logo.png' alt='astute' />
                 </a>
               </div>
             </div>

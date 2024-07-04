@@ -11,7 +11,7 @@ export default function Footer() {
               <div className='widgets-company-info'>
                 <div className='charina-logo'>
                   <a className='logo_img' href='index.html' title='techno'>
-                    <img src='assets/images/logo.png' alt='' />
+                    <img src='/assets/images/logo.png' alt='' />
                   </a>
                 </div>
                 <div className='company-info-desc'>

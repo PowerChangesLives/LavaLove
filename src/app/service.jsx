@@ -165,10 +165,10 @@
         <div className='col-lg-2'>
           <div className='logo'>
             <a className='logo_img' href='index.html' title='charina'>
-              <img src='assets/images/logo.png' alt />
+              <img src='/assets/images/logo.png' alt />
             </a>
             <a className='main_sticky' href='index.html' title='charina'>
-              <img src='assets/images/logo.png' alt='astute' />
+              <img src='/assets/images/logo.png' alt='astute' />
             </a>
           </div>
         </div>
@@ -1013,7 +1013,7 @@
             {/* charina logo */}
             <div className='charina-logo'>
               <a className='logo_img' href='index.html' title='techno'>
-                <img src='assets/images/logo.png' alt />
+                <img src='/assets/images/logo.png' alt />
               </a>
             </div>
             <div className='company-info-desc'>
