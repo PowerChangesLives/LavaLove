@@ -53,16 +53,13 @@ export default function Navbar() {
                         <a href='/documents/portfolio.pdf'>Portfolio</a>
                       </li>
                       <li>
-                        <a href='volunteer.html'>Public Reporting</a>
-                      </li>
-                      <li>
                         <a href='/documents/irs-form-990-2020'>IRS Form 990 (2020)</a>
                       </li>
                       <li>
                         <a href='/documents/irs-form-990-2020'>IRS Form 990 (2019)</a>
                       </li>
                       <li>
-                        <a href='/about/specs'>Specs</a>
+                        <a href='/about/specifications'>Specifications</a>
                       </li>
                     </ul>
                   </li>
@@ -94,10 +91,7 @@ export default function Navbar() {
                     </a>
                     <ul className='sub-menu'>
                       <li>
-                        <a href='/events'>Events</a>
-                      </li>
-                      <li>
-                        <a href='event-details.html'>Event Details</a>
+                        <a href='/events'>Upcoming Events</a>
                       </li>
                     </ul>
                   </li>

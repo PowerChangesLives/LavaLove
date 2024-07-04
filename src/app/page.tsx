@@ -593,8 +593,8 @@ export default function Home() {
           <div className='row'>
             <div className='col-lg-12'>
               <div className='charina-section-title white pb-60 text-center'>
-                <h4> How to help </h4>
-                <h1>Ways to help</h1>
+                <h4>How to help</h4>
+                <h1>Ways to Help</h1>
                 <h1>
                   Advance <span>Dignity</span>
                 </h1>
