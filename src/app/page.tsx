@@ -1,17 +1,8 @@
 'use client';
 
-import EndScripts from './components/EndScripts';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import ScrollUp from './components/ScrollUp';
-
 export default function Home() {
   return (
     <>
-      <Navbar />
-      {/*==================================================*/}
-      {/* Start charina hero section */}
-      {/*==================================================*/}
       <div className='hero_list owl-carousel responsive'>
         <div className='hero-section hero4 d-flex align-items-center'>
           <div className='container'>

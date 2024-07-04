@@ -1,7 +1,4 @@
-import EndScripts from '../components/EndScripts';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import ScrollUp from '../components/ScrollUp';
+import Breatcam from '../components/Breatcam';
 import events from './events.json';
 
 export default function Events() {
@@ -35,41 +32,9 @@ export default function Events() {
 
   return (
     <>
-      <Navbar />
-      {/*==================================================*/}
-      {/* Start charina breatcam section  */}
-      {/*==================================================*/}
-      <div className='breatcam-section d-flex align-items-center'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-12'>
-              <div className='breatcam-content text-center'>
-                {/* breatcam menu */}
-                <div className='breatcam-menu'>
-                  <ul>
-                    <li>
-                      <a href='index.html'>Home</a>
-                    </li>
-                    <li>
-                      <span>/</span> Donations{' '}
-                    </li>
-                    <li>
-                      <span>/</span> Donate
-                    </li>
-                  </ul>
-                </div>
-                {/* breadcumb title */}
-                <div className='breatcam-title'>
-                  <h1> Upcoming Events </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*==================================================*/}
-      {/* End charina breatcam section */}
-      {/*==================================================*/}
+      <Breatcam breadcrumbs={["Donations", "Events"]}>
+        Upcoming Events
+      </Breatcam>
       {/*==================================================*/}
       {/* Main Event */}
       {/*==================================================*/}

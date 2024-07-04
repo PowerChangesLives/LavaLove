@@ -4,6 +4,7 @@ import './globals.css';
 import Footer from './components/Footer';
 import ScrollUp from './components/ScrollUp';
 import EndScripts from './components/EndScripts';
+import Navbar from './components/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -117,6 +118,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        <Navbar />
         {children}
         <Footer />
         <ScrollUp />
