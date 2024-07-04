@@ -25,14 +25,10 @@ export default function Navbar() {
               <nav className='charina_menu'>
                 <ul className='nav_scroll'>
                   <li>
-                    <a href='/'>
-                      Home
-                    </a>
+                    <a href='/'>Home</a>
                   </li>
                   <li>
-                    <a href='/advertise'>
-                      Advertise
-                    </a>
+                    <a href='/advertise'>Advertise</a>
                   </li>
                   <li>
                     <a href='#'>
@@ -43,13 +39,18 @@ export default function Navbar() {
                     </a>
                     <ul className='sub-menu'>
                       <li>
-                        <a href='https://powerchangeslives.com'>Power Changes Lives <i className="bi bi-box-arrow-up-right"></i></a>
+                        <a href='https://powerchangeslives.com'>
+                          Power Changes Lives{' '}
+                          <i className='bi bi-box-arrow-up-right'></i>
+                        </a>
                       </li>
                       <li>
                         <a href='volunteer.html'>Expansion Plan</a>
                       </li>
                       <li>
-                        <a href='/documents/operational-budget.pdf'>Operational Costs</a>
+                        <a href='/documents/operational-budget.pdf'>
+                          Operational Costs
+                        </a>
                       </li>
                       <li>
                         <a href='/about/partners'>Partners and Sponsors</a>
@@ -58,10 +59,14 @@ export default function Navbar() {
                         <a href='/documents/portfolio.pdf'>Portfolio</a>
                       </li>
                       <li>
-                        <a href='/documents/irs-form-990-2020'>IRS Form 990 (2020)</a>
+                        <a href='/documents/irs-form-990-2020'>
+                          IRS Form 990 (2020)
+                        </a>
                       </li>
                       <li>
-                        <a href='/documents/irs-form-990-2020'>IRS Form 990 (2019)</a>
+                        <a href='/documents/irs-form-990-2020'>
+                          IRS Form 990 (2019)
+                        </a>
                       </li>
                       <li>
                         <a href='/about/specifications'>Specifications</a>
@@ -108,7 +113,11 @@ export default function Navbar() {
             </div>
             <div className='col-lg-2 pl-0'>
               <div className='header-button'>
-                <a href='donate.html' style={{ backgroundColor: 'var(--primary-color)' }} className="hover-secondary">
+                <a
+                  href='donate.html'
+                  style={{ backgroundColor: 'var(--primary-color)' }}
+                  className='hover-secondary'
+                >
                   {' '}
                   Donate Now <i className='bi bi-suit-heart' />{' '}
                 </a>
@@ -123,9 +132,7 @@ export default function Navbar() {
           <nav className='charina_menu'>
             <ul className='nav_scroll'>
               <li>
-                <a href='/'>
-                  Home
-                </a>
+                <a href='/'>Home</a>
               </li>
               <li>
                 <a href='#'>

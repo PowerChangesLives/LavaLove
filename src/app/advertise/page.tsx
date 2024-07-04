@@ -1,3 +1,1 @@
-export default function Advertise() {
-    
-}
+export default function Advertise() {}

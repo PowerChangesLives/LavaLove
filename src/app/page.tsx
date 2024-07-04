@@ -78,8 +78,8 @@ export default function Home() {
                   {/* feature desc */}
                   <div className='feature-description'>
                     <p>
-                      We need resources and energy to keep LavaLove going.
-                      The best way to help is through your generous donations.
+                      We need resources and energy to keep LavaLove going. The
+                      best way to help is through your generous donations.
                     </p>
                   </div>
                 </div>
@@ -106,8 +106,8 @@ export default function Home() {
                   {/* feature desc */}
                   <div className='feature-description'>
                     <p>
-                      Personnel on the truck aid in providing amenities and showers for all.
-                      Your contribution can change a life.
+                      Personnel on the truck aid in providing amenities and
+                      showers for all. Your contribution can change a life.
                     </p>
                   </div>
                 </div>
@@ -134,7 +134,8 @@ export default function Home() {
                   {/* feature desc */}
                   <div className='feature-description'>
                     <p>
-                      Want to support us in different ways?<br />
+                      Want to support us in different ways?
+                      <br />
                       Come see our events and help bolster <br />
                       the community around LavaLove.
                     </p>
@@ -152,18 +153,24 @@ export default function Home() {
             <div className='col-lg-6'>
               {/* about thumb */}
               <div className='about-thumb2'>
-                <img src='assets/images/resource/about2.jpg' alt='' className="base-home-image" />
+                <img
+                  src='assets/images/resource/about2.jpg'
+                  alt=''
+                  className='base-home-image'
+                />
               </div>
             </div>
             <div className='col-lg-6 pl-4 pr-0'>
               <div className='charina-section-title'>
                 <h4>Join Us and Start Donating</h4>
-                <h1>Make it your goal to support the <span>Homeless</span>.</h1>
+                <h1>
+                  Make it your goal to support the <span>Homeless</span>.
+                </h1>
                 <p>
-                LavaLove® is a 29 foot custom-designed trailer,
-                which provides a multi-unit shower, sink, toilet, washing machine,
-                dryer, barber station and resource room for ancillary services 
-                for our most vulnerable in the community.
+                  LavaLove® is a 29 foot custom-designed trailer, which
+                  provides a multi-unit shower, sink, toilet, washing machine,
+                  dryer, barber station and resource room for ancillary services
+                  for our most vulnerable in the community.
                 </p>
               </div>
               {/* about items */}
@@ -275,8 +282,8 @@ export default function Home() {
               <div className='charina-section-title pb-60'>
                 <h4> The Data </h4>
                 <h1>
-                  <span>93 thousand water insecure</span> NJ homeless
-                  lack <span>basic access</span> to sanitation <span>daily</span>.
+                  <span>93 thousand water insecure</span> NJ homeless lack{' '}
+                  <span>basic access</span> to sanitation <span>daily</span>.
                 </h1>
                 <h1>
                   Every LavaLove® truck provides <span>8,418</span> showers
@@ -285,9 +292,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='row align-items-center donate-bg'>
-            
-          </div>
+          <div className='row align-items-center donate-bg'></div>
         </div>
       </div>
       {/*==================================================*/}

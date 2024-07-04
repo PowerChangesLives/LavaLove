@@ -1,3 +1,1 @@
-export default function Specifications() {
-    
-}
+export default function Specifications() {}
