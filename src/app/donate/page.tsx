@@ -41,12 +41,6 @@ export default function Donate() {
       {/*==================================================*/}
       {/* End charina breatcam section */}
       {/*==================================================*/}
-      <div>
-
-      </div>
-      <Footer />
-      <ScrollUp />
-      <EndScripts />
     </>
   );
 }

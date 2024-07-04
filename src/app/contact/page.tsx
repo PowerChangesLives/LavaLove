@@ -93,10 +93,7 @@ export default function Contact() {
     </div>
   </div>
   {/*==================================================*/}
-  {/* End charina Contac Inf Section */}
+  {/* End charina Contact Info Section */}
   {/*==================================================*/}
-  <Footer />
-  <ScrollUp />
-  <EndScripts />
 </>
 }

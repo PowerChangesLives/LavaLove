@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Footer from './components/Footer';
+import ScrollUp from './components/ScrollUp';
+import EndScripts from './components/EndScripts';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -113,7 +116,12 @@ export default function RootLayout({
           href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css'
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Footer />
+        <ScrollUp />
+        <EndScripts />
+      </body>
     </html>
   );
 }

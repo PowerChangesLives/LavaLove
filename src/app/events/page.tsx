@@ -250,9 +250,6 @@ export default function Events() {
       {/*==================================================*/}
       {/* End charina donate Section */}
       {/*==================================================*/}
-      <Footer />
-      <ScrollUp />
-      <EndScripts />
     </>
   );
 }

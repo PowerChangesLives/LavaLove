@@ -221,37 +221,5 @@ export default function Volunteer() {
   {/*==================================================*/}
   {/* Start charina contact form Section */}
   {/*==================================================*/}
-  <Footer />
-  <ScrollUp />
-  {/*==================================================*/}
-  {/* Start Search Popup Area */}
-  {/*==================================================*/}
-  <div className='search-popup'>
-    <button className='close-search style-two'>
-      <span className='flaticon-multiply'>
-        <i className='far fa-times-circle' />
-      </span>
-    </button>
-    <button className='close-search'>
-      <i className='fas fa-arrow-up' />
-    </button>
-    <form method='post' action='#'>
-      <div className='form-group'>
-        <input
-          type='search'
-          name='search-field'
-          placeholder='Search Here'
-          required
-        />
-        <button type='submit'>
-          <i className='fa fa-search' />
-        </button>
-      </div>
-    </form>
-  </div>
-  {/*==================================================*/}
-  {/* Start Search Popup Area */}
-  {/*==================================================*/}
-  <EndScripts />
 </>
 }
