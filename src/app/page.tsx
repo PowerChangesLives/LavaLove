@@ -152,18 +152,6 @@ export default function Home() {
               {/* about thumb */}
               <div className='about-thumb2'>
                 <img src='assets/images/resource/about2.jpg' alt='' className="base-home-image" />
-                {/* about counter */}
-                <div className='about-couner'>
-                  <div className='about-counter-thumb'>
-                    <div className='about-counter-title'>
-                      <h2 className='counter'>93</h2>
-                      <h2>K+</h2>
-                    </div>
-                    <div className='counter-text2'>
-                      <p>Water Insecure</p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className='col-lg-6 pl-4 pr-0'>
@@ -234,7 +222,7 @@ export default function Home() {
             </div>
           </div>
           <div className='row'>
-            <div className='col-lg-3 col-md-6'>
+            <div className='col-lg-4 col-md-6'>
               <div className='project-single-box'>
                 {/* project thumb */}
                 <div className='project-thumb'>
@@ -246,7 +234,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
+            <div className='col-lg-4 col-md-6'>
               <div className='project-single-box'>
                 {/* project thumb */}
                 <div className='project-thumb'>
@@ -258,19 +246,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
-              <div className='project-single-box'>
-                {/* project thumb */}
-                <div className='project-thumb'>
-                  <img src='assets/images/resource/project3.png' alt='' />
-                </div>
-                {/* project title */}
-                <div className='project-title'>
-                  <h3>Emergency Aids</h3>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-3 col-md-6'>
+            <div className='col-lg-4 col-md-12'>
               <div className='project-single-box'>
                 {/* project thumb */}
                 <div className='project-thumb'>
@@ -296,179 +272,20 @@ export default function Home() {
           <div className='row'>
             <div className='col-lg-12'>
               <div className='charina-section-title pb-60'>
-                <h4> Start Donating Theme </h4>
+                <h4> The Data </h4>
                 <h1>
-                  {' '}
-                  Our Featured <span>Campaigns</span>{' '}
+                  <span>93 thousand water insecure</span> NJ homeless
+                  lack <span>basic access</span> to sanitation <span>daily</span>.
+                </h1>
+                <h1>
+                  Every LavaLove® truck provides <span>8,418</span> showers
+                  every year.
                 </h1>
               </div>
             </div>
           </div>
           <div className='row align-items-center donate-bg'>
-            <div className='owl-carousel donate-list2'>
-              {/* donate campaigns items */}
-              <div className='donate-campaigns-items'>
-                {/* donate thumb */}
-                <div className='donate-thumb2'>
-                  <img src='assets/images/resource/donate.png' alt='' />
-                </div>
-                {/* donate items content */}
-                <div className='donate-items-content'>
-                  <div className='donate-section-title'>
-                    <h6> Foods </h6>
-                    <h2> Donate Money Orphan Funds </h2>
-                    <h2 className='section-text'> Helping their Meals </h2>
-                    <p>
-                      {' '}
-                      Phosfluorescently cultivate enabled relationships without
-                      sticky empower next-generation e-commerce network{' '}
-                    </p>
-                  </div>
-                  {/* progress ber */}
-                  <div className='progress-ber-plugin'>
-                    <div id='bar6' className='barfiller'>
-                      <div className='tipWrap'>
-                        <span className='tip' />
-                      </div>
-                      <span className='fill up1' data-percentage={50} />
-                    </div>
-                    <div className='progress-text'>
-                      <p>
-                        Achived : <span>$50,000</span>{' '}
-                      </p>
-                    </div>
-                    <div className='progress-text-2'>
-                      <p className='progress-text'>
-                        {' '}
-                        Goal : <span>$50,000</span>
-                      </p>
-                    </div>
-                  </div>
-                  {/* progress ber end */}
-                  <div className='donate-date-text'>
-                    <p>
-                      {' '}
-                      <i className='bi bi-clock-fill' /> 150 Days Remaining
-                    </p>
-                  </div>
-                  {/* button */}
-                  <div className='charina-button'>
-                    <a href='donations.html'>
-                      {' '}
-                      Discover More <i className='bi bi-suit-heart' />{' '}
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* donate campaigns items */}
-              <div className='donate-campaigns-items'>
-                {/* donate thumb */}
-                <div className='donate-thumb2'>
-                  <img src='assets/images/resource/donate2.jpg' alt='' />
-                </div>
-                {/* donate items content */}
-                <div className='donate-items-content'>
-                  <div className='donate-section-title'>
-                    <h6> Educations </h6>
-                    <h2> Give a Good Education for </h2>
-                    <h2 className='section-text'> Orphan Childreens </h2>
-                    <p>
-                      {' '}
-                      Phosfluorescently cultivate enabled relationships without
-                      sticky empower next-generation e-commerce network{' '}
-                    </p>
-                  </div>
-                  {/* progress ber */}
-                  <div className='progress-ber-plugin'>
-                    <div id='bar7' className='barfiller'>
-                      <div className='tipWrap'>
-                        <span className='tip' />
-                      </div>
-                      <span className='fill up1' data-percentage={50} />
-                    </div>
-                    <div className='progress-text'>
-                      <p>
-                        Achived : <span>$50,000</span>{' '}
-                      </p>
-                    </div>
-                    <div className='progress-text-2'>
-                      <p className='progress-text'>
-                        {' '}
-                        Goal : <span>$50,000</span>
-                      </p>
-                    </div>
-                  </div>
-                  {/* progress ber end */}
-                  <div className='donate-date-text'>
-                    <p>
-                      {' '}
-                      <i className='bi bi-clock-fill' /> 150 Days Remaining
-                    </p>
-                  </div>
-                  {/* button */}
-                  <div className='charina-button'>
-                    <a href='donations.html'>
-                      {' '}
-                      Discover More <i className='bi bi-suit-heart' />{' '}
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* donate campaigns items */}
-              <div className='donate-campaigns-items'>
-                {/* donate thumb */}
-                <div className='donate-thumb2'>
-                  <img src='assets/images/resource/donate3.jpg' alt='' />
-                </div>
-                {/* donate items content */}
-                <div className='donate-items-content'>
-                  <div className='donate-section-title'>
-                    <h6> Medical </h6>
-                    <h2> Campaign for Buy Medicine </h2>
-                    <h2 className='section-text'> for Street Childreen’s </h2>
-                    <p>
-                      {' '}
-                      Phosfluorescently cultivate enabled relationships without
-                      sticky empower next-generation e-commerce network{' '}
-                    </p>
-                  </div>
-                  {/* progress ber */}
-                  <div className='progress-ber-plugin'>
-                    <div id='bar5' className='barfiller'>
-                      <div className='tipWrap'>
-                        <span className='tip' />
-                      </div>
-                      <span className='fill up1' data-percentage={50} />
-                    </div>
-                    <div className='progress-text'>
-                      <p>
-                        Achived : <span>$50,000</span>{' '}
-                      </p>
-                    </div>
-                    <div className='progress-text-2'>
-                      <p className='progress-text'>
-                        {' '}
-                        Goal : <span>$50,000</span>
-                      </p>
-                    </div>
-                  </div>
-                  {/* progress ber end */}
-                  <div className='donate-date-text'>
-                    <p>
-                      {' '}
-                      <i className='bi bi-clock-fill' /> 150 Days Remaining
-                    </p>
-                  </div>
-                  {/* button */}
-                  <div className='charina-button'>
-                    <a href='donations.html'>
-                      {' '}
-                      Discover More <i className='bi bi-suit-heart' />{' '}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -483,20 +300,19 @@ export default function Home() {
           <div className='row call-bg align-items-center'>
             <div className='col-lg-7 col-md-6'>
               <div className='charina-section-title white'>
-                <h4> Join Our Volunteers </h4>
-                <h1>Join Now Our Volunteers &amp;</h1>
+                <h4>Volunteering </h4>
+                <h1>Join Our Volunteers &amp;</h1>
                 <h1 className='section-text'>
                   {' '}
-                  Help the <span>Childrens</span>{' '}
+                  Help the <span>Homeless</span>{' '}
                 </h1>
               </div>
             </div>
             <div className='col-lg-5 col-md-6'>
               {/* button */}
               <div className='charina-button text-right'>
-                <a href='volunteer.html'>
-                  {' '}
-                  Become Volunteer <i className='bi bi-chevron-double-right' />{' '}
+                <a href='/volunteer'>
+                  Volunteer <i className='bi bi-chevron-double-right' />{' '}
                 </a>
               </div>
             </div>
@@ -777,11 +593,10 @@ export default function Home() {
           <div className='row'>
             <div className='col-lg-12'>
               <div className='charina-section-title white pb-60 text-center'>
-                <h4> Upcoming Events </h4>
-                <h1> Our Mission Vission and </h1>
+                <h4> How to help </h4>
+                <h1>Ways to help</h1>
                 <h1>
-                  {' '}
-                  Targated <span>Goals</span>{' '}
+                  Advance <span>Dignity</span>
                 </h1>
               </div>
             </div>
@@ -807,16 +622,16 @@ export default function Home() {
                 {/* / tabs */}
                 <ul className='tabs'>
                   <li>
-                    <a href='#'> Our Mission </a>
+                    <a href='#'>Donate Supplies</a>
                   </li>
                   <li>
-                    <a href='#'> How we Work </a>
+                    <a href='#'>Financial Support</a>
                   </li>
                   <li>
-                    <a href='#'> Our Vission </a>
+                    <a href='#'>Donate Clothing</a>
                   </li>
                   <li>
-                    <a href='#'> Goal Achive</a>
+                    <a href='#'>Volunteer</a>
                   </li>
                 </ul>
                 {/* tab content */}

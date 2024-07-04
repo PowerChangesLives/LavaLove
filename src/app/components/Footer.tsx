@@ -87,13 +87,6 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          {/* footer shape */}
-          <div className='footer-shape bounce-animate'>
-            <img src='assets/images/resource/footer-arrow.png' alt='' />
-          </div>
-          <div className='footer-shape2 dance'>
-            <img src='assets/images/resource/heart-icon.png' alt='' />
-          </div>
         </div>
       </div>
     </div>

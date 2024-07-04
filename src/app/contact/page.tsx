@@ -40,7 +40,7 @@ export default function Contact() {
   {/* End charina breatcam section */}
   {/*==================================================*/}
   {/*==================================================*/}
-  {/* Start charina Contac Inf Section */}
+  {/* Start charina Contact Info Section */}
   {/*==================================================*/}
   <div className='contact-info-section'>
     <div className='container'>

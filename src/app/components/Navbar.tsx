@@ -68,20 +68,20 @@ export default function Navbar() {
                   </li>
                   <li>
                     <a href='#'>
-                      Donations{' '}
+                      Donate{' '}
                       <span>
                         <i className='bi bi-chevron-down' />
                       </span>
                     </a>
                     <ul className='sub-menu'>
                       <li>
-                        <a href='donate.html'>Donate</a>
+                        <a href='/donate'>Donate Online</a>
                       </li>
                       <li>
-                        <a href='donations.html'>Donations</a>
+                        <a href='/documents/products.pdf'>Donate Products</a>
                       </li>
                       <li>
-                        <a href='donations-details.html'>Donations Details</a>
+                        <a href='/donate/hygine'>Donate Hygiene Kits</a>
                       </li>
                     </ul>
                   </li>
