@@ -31,7 +31,7 @@ export default function Home() {
                     <h1> Giving a Helping</h1>
                     <h1>
                       {' '}
-                      Hand for the <span>Homeless</span>{' '}
+                      Hand for the <span>Homeless</span>
                     </h1>
                   </div>
                   {/* hero button */}

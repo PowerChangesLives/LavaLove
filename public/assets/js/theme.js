@@ -73,11 +73,11 @@
 
     // Case Study Active
     $('.hero_list').owlCarousel({
-        loop: true,
         autoplay: true,
         autoplayTimeout: 10000,
         dots: true,
         nav: true,
+        mouseDrag: false,
         center: true,
         navText: ["<i class='bi bi-arrow-left''></i>", "<i class='bi bi-arrow-right''></i>"],
         responsive: {
@@ -217,62 +217,6 @@
         }
     })
 
-    // galary Active
-    $('.galary-list').owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 10000,
-        dots: true,
-        nav: false,
-        center: true,
-        navText: ["<i class='bi bi-arrow-left''></i>", "<i class='bi bi-arrow-right''></i>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 4
-            },
-            1000: {
-                items: 4
-            },
-            1920: {
-                items: 4
-            }
-        }
-    })
-
-    // galary Active
-    $('.galary-list2').owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 10000,
-        dots: true,
-        nav: false,
-        center: true,
-        navText: ["<i class='bi bi-arrow-left''></i>", "<i class='bi bi-arrow-right''></i>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 3
-            },
-            992: {
-                items: 4
-            },
-            1000: {
-                items: 5
-            },
-            1920: {
-                items: 5
-            }
-        }
-    })
-
     // brand Active
     $('.brand-list').owlCarousel({
         loop: true,
@@ -318,15 +262,6 @@
         time: 1000
     });
 
-    // Venubox
-
-    $('.venobox').venobox({
-
-        numeratio: true,
-
-        infinigall: true
-
-    });
     /*--------------------------
      scrollUp
     ---------------------------- */
