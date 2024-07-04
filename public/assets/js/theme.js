@@ -270,9 +270,7 @@
         easingType: 'linear',
         scrollSpeed: 900,
         animation: 'fade'
-    })
-
-
+    });
 
     // table tabs
 

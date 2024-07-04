@@ -74,8 +74,8 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li>
-                    <a href='#'>
-                      Donate{' '}
+                    <a href='/donate'>
+                      Donate
                       <span>
                         <i className='bi bi-chevron-down' />
                       </span>
@@ -93,8 +93,8 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li>
-                    <a href='#'>
-                      Events{' '}
+                    <a href='/events'>
+                      Events
                       <span>
                         <i className='bi bi-chevron-down' />
                       </span>

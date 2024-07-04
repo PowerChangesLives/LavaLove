@@ -13,10 +13,7 @@ export default function EndScripts() {
       <Script src='assets/js/waypoints.min.js' />
       <Script src='assets/js/wow.js' />
       <Script src='assets/js/imagesloaded.pkgd.min.js' />
-      <Script src='venobox/venobox.js' />
-      <Script src='assets/js/ajax-mail.js' />
       <Script src='assets/js/animated-text.js' />
-      <Script src='venobox/venobox.min.js' />
       <Script src='assets/js/isotope.pkgd.min.js' />
       <Script src='assets/js/jquery.meanmenu.js' />
       <Script src='assets/js/jquery.scrollUp.js' />
