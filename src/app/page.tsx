@@ -20,7 +20,7 @@ export default function Home() {
                   </div>
                   {/* hero title */}
                   <div className='hero-title'>
-                    <h1> Giving a Helping</h1>
+                    <h1>Giving a Helping</h1>
                     <h1>
                       {' '}
                       Hand for the <span>Homeless</span>

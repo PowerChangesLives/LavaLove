@@ -1,9 +1,6 @@
 export default function Footer() {
   return (
     <>
-      {/*==================================================*/}
-      {/* Start Footer Section */}
-      {/*==================================================*/}
       <div className='footer-section'>
         <div className='container'>
           <div className='row footer-bg'>
@@ -11,7 +8,7 @@ export default function Footer() {
               <div className='widgets-company-info'>
                 <div className='charina-logo'>
                   <a className='logo_img' href='index.html' title='techno'>
-                    <img src='/assets/images/logo.png' alt='' />
+                    <img src='/assets/images/logo.png' alt='LavaLove Logo' />
                   </a>
                 </div>
                 <div className='company-info-desc'>
@@ -35,26 +32,22 @@ export default function Footer() {
                   <ul className='footer-widget-list'>
                     <li>
                       <a href='/about'>
-                        {' '}
-                        <i className='bi bi-chevron-double-right' /> About{' '}
+                        <i className='bi bi-chevron-double-right' /> About
                       </a>
                     </li>
                     <li>
                       <a href='/contact'>
-                        {' '}
-                        <i className='bi bi-chevron-double-right' /> Contact{' '}
+                        <i className='bi bi-chevron-double-right' /> Contact
                       </a>
                     </li>
                     <li>
                       <a href='/events'>
-                        {' '}
-                        <i className='bi bi-chevron-double-right' /> Events{' '}
+                        <i className='bi bi-chevron-double-right' /> Events
                       </a>
                     </li>
                     <li>
                       <a href='donations.html'>
-                        {' '}
-                        <i className='bi bi-chevron-double-right' /> Donations{' '}
+                        <i className='bi bi-chevron-double-right' /> Donate
                       </a>
                     </li>
                   </ul>
@@ -73,7 +66,6 @@ export default function Footer() {
                   </div>
                   {/* footer info desc */}
                   <div className='footer-info-desc'>
-                    {/* TODO: link to tel: and mailto: */}
                     <p>
                       <a className='text-white' href='tel:+19738665531'>
                         +1 973-866-5531
@@ -85,7 +77,6 @@ export default function Footer() {
                   </div>
                   {/* footer info desc */}
                   <div className='footer-info-desc'>
-                    {/* TODO: link to tel: and mailto: */}
                     <p>
                       <a
                         className='text-white'
@@ -107,7 +98,8 @@ export default function Footer() {
             <div className='col-lg-6 col-md-6'>
               <div className='footer-bottom-content-copy'>
                 <p>
-                  Copyright © {new Date().getFullYear()} Power Changes Lives;
+                  Copyright © {new Date().getFullYear()}{' '}
+                  <a className="inheritColor" href="https://powerchangeslives.com">Power Changes Lives</a>;
                   All Rights Reserved.
                 </p>
               </div>
@@ -116,13 +108,13 @@ export default function Footer() {
               <div className='footer-bottom-menu text-right'>
                 <ul>
                   <li>
-                    <a href='about.html'>About</a>
+                    <a href='/about'>About</a>
                   </li>
                   <li>
-                    <a href='#'>Privacy Policy</a>
+                    <a href='/donate'>Donate</a>
                   </li>
                   <li>
-                    <a href='service.html'>Services</a>
+                    <a href='/volunteer'>Volunteer</a>
                   </li>
                 </ul>
               </div>
@@ -130,9 +122,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      {/*==================================================*/}
-      {/* End charina Footer Section */}
-      {/*==================================================*/}
     </>
   );
 }

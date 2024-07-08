@@ -5903,3 +5903,7 @@ button.tablink:hover {
 .base-home-image {
     border-radius: 1rem;
 }
+
+.inheritColor {
+    color: inherit !important;
+}
