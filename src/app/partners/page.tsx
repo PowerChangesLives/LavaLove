@@ -1,7 +1,5 @@
 "use client";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import EndScripts from "../components/EndScripts";
 import React, { useEffect, useState } from 'react';
 
@@ -20,7 +18,6 @@ const Partners: React.FC = () => {
     }, []);
     return(
         <>
-            <Navbar/>
             <div className='breatcam-section d-flex align-items-center'>
                 <div className="container">
                     <div className="row">
@@ -58,49 +55,6 @@ const Partners: React.FC = () => {
                         ))}
                     </div>
                 </div>
-            </div>
-            <Footer/>
-            <div className='prgoress_indicator active-progress'>
-                <svg
-                    className='progress-circle svg-content'
-                    width='100%'
-                    height='100%'
-                    viewBox='-1 -1 102 102'
-                >
-                    <path
-                        d='M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98'
-                        style={{
-                            transition: 'stroke-dashoffset 10ms linear 0s',
-                            strokeDasharray: '307.919, 307.919',
-                            strokeDashoffset: '270.456',
-                        }}
-                    />
-                </svg>
-            </div>
-
-            <div className='search-popup'>
-                <button className='close-search style-two'>
-                    <span className='flaticon-multiply'>
-                        <i className='far fa-times-circle' />
-                    </span>
-                </button>
-                <button className='close-search'>
-                    <i className='fas fa-arrow-up' />
-                </button>
-                <form method='post' action='#'>
-                    <div className='form-group'>
-                        <input
-                        type='search'
-                        name='search-field'
-                        defaultValue=''
-                        placeholder='Search Here'
-                        required
-                        />
-                        <button type='submit'>
-                            <i className='fa fa-search' />
-                        </button>
-                    </div>
-                </form>
             </div>
             <EndScripts/>
         </>
