@@ -6,7 +6,7 @@ export default function Events() {
 
   // Events are sorted by date. The first event is the oldest event and so on
   const sortedEvents = events.sort(
-    (a, b) => new Date(a.date) - new Date(b.date)
+    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
   );
 
   const upComingEvents = sortedEvents.filter(
