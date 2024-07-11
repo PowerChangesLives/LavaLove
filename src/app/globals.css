@@ -3,13 +3,13 @@
 @tailwind components;
 @tailwind utilities; */
 
-:root{
-    --primary-color: #89CFF0;
-    --secondary-color: #F46FA1;
-    --tertiary-color: #93C83E;
-    --quaternary-color: #AD5691;
+:root {
+  --primary-color: #58b1db;
+  --secondary-color: #f46fa1;
+  --tertiary-color: #93c83e;
+  --quaternary-color: #ad5691;
 }
 
 .hover-secondary:hover {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }

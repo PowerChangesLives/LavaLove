@@ -1,6 +1,10 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Footer from './components/Footer';
+import ScrollUp from './components/ScrollUp';
+import EndScripts from './components/EndScripts';
+import Navbar from './components/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -30,79 +34,72 @@ export default function RootLayout({
         {/*bootstrap CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/bootstrap.min.css'
+          href='/assets/css/bootstrap.min.css'
           type='text/css'
           media='all'
         />
         {/*carousel CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/owl.carousel.min.css'
+          href='/assets/css/owl.carousel.min.css'
           type='text/css'
           media='all'
         />
         {/*animate CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/animate.css'
+          href='/assets/css/animate.css'
           type='text/css'
           media='all'
         />
         {/*animated-text CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/animated-text.css'
+          href='/assets/css/animated-text.css'
           type='text/css'
           media='all'
         />
         {/*font-awesome CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/all.min.css'
+          href='/assets/css/all.min.css'
           type='text/css'
           media='all'
         />
         {/*font-flaticon CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/flaticon.css'
+          href='/assets/css/flaticon.css'
           type='text/css'
           media='all'
         />
         {/*theme-default CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/theme-default.css'
+          href='/assets/css/theme-default.css'
           type='text/css'
           media='all'
         />
         {/*meanmenu CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/meanmenu.min.css'
+          href='/assets/css/meanmenu.min.css'
           type='text/css'
           media='all'
         />
         {/*Main Style CSS*/}
-        <link rel='stylesheet' href='style.css' type='text/css' media='all' />
+        <link rel='stylesheet' href='/style.css' type='text/css' media='all' />
         {/*transitions CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/owl.transitions.css'
-          type='text/css'
-          media='all'
-        />
-        {/*venobox CSS*/}
-        <link
-          rel='stylesheet'
-          href='venobox/venobox.css'
+          href='/assets/css/owl.transitions.css'
           type='text/css'
           media='all'
         />
         {/*responsive CSS*/}
         <link
           rel='stylesheet'
-          href='assets/css/responsive.css'
+          href='/assets/css/responsive.css'
           type='text/css'
           media='all'
         />
@@ -113,7 +110,13 @@ export default function RootLayout({
           href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css'
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+        <Footer />
+        <ScrollUp />
+        <EndScripts />
+      </body>
     </html>
   );
 }

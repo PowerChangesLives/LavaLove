@@ -1080,7 +1080,7 @@ p.charina-icon i {
   <!-- Start charina donate Section Css -->
  ==================================================-*/
 .project-section {
-    background: url(assets/images/resource/project-bg.png);
+    background: url(assets/images/resource/project-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1092,7 +1092,7 @@ p.charina-icon i {
     margin-bottom: 30px;
 }
 
-/*proejct title*/
+/*project title*/
 .project-title h3 {
     font-size: 24px;
     font-weight: 700;
