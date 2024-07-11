@@ -45,7 +45,7 @@ export default function Events() {
               <div className='donations-single-box'>
                 {/* donations thumb */}
                 <div className='donations-thumb'>
-                  <img src='assets/images/resource/event.png' alt />
+                  <img src='assets/images/resource/event.png' alt='' />
                 </div>
               </div>
               {/* donations title */}
