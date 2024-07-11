@@ -69,12 +69,12 @@ export default function Events() {
               <div className='row mt-55'>
                 <div className='col-lg-6 col-md-6'>
                   <div className='event-thumb'>
-                    <img src='assets/images/resource/1-event.png' alt />
+                    <img src='assets/images/resource/1-event.png' alt='' />
                   </div>
                 </div>
                 <div className='col-lg-6 col-md-6'>
                   <div className='event-thumb'>
-                    <img src='assets/images/resource/2-event.png' alt />
+                    <img src='assets/images/resource/2-event.png' alt='' />
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@ export default function Events() {
                   <div className='logo-thumb'>
                     <a href='index.html'>
                       {' '}
-                      <img src='assets/images/resource/logo.png' alt />{' '}
+                      <img src='assets/images/resource/logo.png' alt='' />{' '}
                     </a>
                   </div>
                   <div className='widget-title2'>
