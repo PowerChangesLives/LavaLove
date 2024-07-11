@@ -5903,3 +5903,29 @@ button.tablink:hover {
 .base-home-image {
     border-radius: 1rem;
 }
+
+/* Partners section */
+
+.partners-details-section {
+    padding: 100px 0 100px;
+}
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+.partner-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+}
+.partner-item:hover {
+    transform: scale(1.05);
+}
+  
