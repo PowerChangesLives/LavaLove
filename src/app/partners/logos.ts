@@ -1,4 +1,4 @@
-[
+export const logos = [
     {
         "Name": "Amazon",
         "logoURL": "/assets/images/Partners logo/AMAZON11042021.png"

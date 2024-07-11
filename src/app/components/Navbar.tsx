@@ -53,7 +53,7 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li>
-                        <a href='/about/partners'>Partners and Sponsors</a>
+                        <a href='/partners'>Partners and Sponsors</a>
                       </li>
                       <li>
                         <a href='/documents/portfolio.pdf'>Portfolio</a>
