@@ -18,7 +18,7 @@ export default function EndScripts() {
       <Script src='/assets/js/jquery.meanmenu.js' />
       <Script src='/assets/js/jquery.scrollUp.js' />
       <Script src='/assets/js/jquery.barfiller.js' />
-      <Script src='/assets/js/theme.js' />
+      <Script defer src='/assets/js/theme.js' />
     </>
   );
 }
