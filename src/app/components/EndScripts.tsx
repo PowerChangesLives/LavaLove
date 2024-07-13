@@ -11,7 +11,6 @@ export default function EndScripts() {
       <Script src='/assets/js/owl.carousel.min.js' />
       <Script src='/assets/js/jquery.counterup.min.js' />
       <Script src='/assets/js/waypoints.min.js' />
-      <Script src='/assets/js/wow.js' />
       <Script src='/assets/js/imagesloaded.pkgd.min.js' />
       <Script src='/assets/js/animated-text.js' />
       <Script src='/assets/js/isotope.pkgd.min.js' />

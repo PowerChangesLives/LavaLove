@@ -250,12 +250,6 @@
         }
     })
 
-
-    /*---------------------
-    WOW active js 
-    --------------------- */
-    new WOW().init();
-
     // counterUp
     $('.counter').counterUp({
         delay: 10,
