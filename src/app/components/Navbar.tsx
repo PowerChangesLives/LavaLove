@@ -110,6 +110,31 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li>
+                  <a href='/volunteer'>
+                      Volunteer
+                      <span>
+                        <i className='bi bi-chevron-down' />
+                      </span>
+                    </a>
+                    <ul className='sub-menu'>
+                      <li>
+                        <a href='/volunteer/information'>Information</a>
+                      </li>
+                      <li>
+                        <a href='/documents/volunteer-opportunities.pdf'>
+                          Opportunities{' '}
+                          <i className='bi bi-card-text'></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href='https://tinyurl.com/LavaLoveVolunteer'>
+                          Apply{' '}
+                          <i className='bi bi-box-arrow-up-right'></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
                     <a href='/contact'>Contact</a>
                   </li>
                 </ul>
