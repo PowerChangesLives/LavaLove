@@ -75,7 +75,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='feature-button'>
-                  <a href='service.html'>
+                  <a href='/donate'>
                     {' '}
                     Donate Now <i className='bi bi-arrow-right' />
                   </a>
@@ -103,8 +103,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='feature-button'>
-                  <a href='service.html'>
-                    {' '}
+                  <a href='/volunteer'>
                     Volunteer <i className='bi bi-arrow-right' />
                   </a>
                 </div>
@@ -133,7 +132,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='feature-button'>
-                  <a href='service.html'>
+                  <a href='/events'>
                     See Events <i className='bi bi-arrow-right' />
                   </a>
                 </div>
@@ -192,9 +191,8 @@ export default function Home() {
                 </div>
               </div>
               <div className='charina-button upp'>
-                <a href='about.html'>
-                  {' '}
-                  Discover More <i className='bi bi-chevron-double-right' />{' '}
+                <a href='/donate'>
+                  Donate Now<i className='bi bi-chevron-double-right' />{' '}
                 </a>
               </div>
             </div>

@@ -18,7 +18,7 @@ export default function Footer() {
                   </p>
                 </div>
                 <div className='footer-button'>
-                  <a href='about.html'>
+                  <a href='/donate'>
                     Donate Now <i className='bi bi-suit-heart' />
                   </a>
                 </div>
