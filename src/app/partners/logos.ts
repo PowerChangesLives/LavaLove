@@ -1,98 +1,108 @@
-export const logos = [
+interface Logo {
+    name: string;
+    logoURL: string;
+    link: string;
+}
+
+export const logos: Logo[] = [
     {
         name: "Amazon",
-        "logoURL": "/assets/images/Partners logo/AMAZON11042021.png"
+        logoURL: "/assets/images/Partners logo/AMAZON11042021.png",
+        link: "https://www.amazon.com/"
     },
     {
         name: "Angel Wings",
-        "logoURL": "/assets/images/Partners logo/ANGELSWINGSFOUNDATIONEASTHANOVERNJ.jpg"
+        logoURL: "/assets/images/Partners logo/ANGELSWINGSFOUNDATIONEASTHANOVERNJ.jpg",
+        link: "https://www.facebook.com/AngelsWingsFoundationEastHanover/?paipv=0&eav=AfYlFcdAdZoWfFH1-PaivKy3o6v8iH5CdiUZx3Ob9QLphj3BB_MIDBlj6y7Tc9o8LZs&_rdr"
     },
     {
         name: "Crud Cloth",
-        "logoURL": "/assets/images/Partners logo/CrudCloth1.png"
+        logoURL: "/assets/images/Partners logo/CrudCloth1.png",
+        link: "https://www.crudcloth.com/"
     },
     {
         name: "Delta Dental",
-        "logoURL": "/assets/images/Partners logo/DeltaDental1.png"
+        logoURL: "/assets/images/Partners logo/DeltaDental1.png",
+        link: "https://www.deltadental.com/"
     },
     {
         name: "Goodwill Industries",
-        "logoURL": "/assets/images/Partners logo/GoodwillIndustriesofGreaterNYNorthernNJ.png"
+        logoURL: "/assets/images/Partners logo/GoodwillIndustriesofGreaterNYNorthernNJ.png",
+        link: "https://goodwillnynj.org/"
     },
     {
         name: "Hanes",
-        "logoURL": "/assets/images/Partners logo/HANES11192021.png"
+        logoURL: "/assets/images/Partners logo/HANES11192021.png",
+        link: "https://www.hanes.com/"
     },
     {
         name: "Isaiah House",
-        "logoURL": "/assets/images/Partners logo/IsaiahHouse.png"
+        logoURL: "/assets/images/Partners logo/IsaiahHouse.png",
+        link: "https://isaiahhouse.org/"
     },
     {
-        name: "Lava Max",
-        "logoURL": "/assets/images/Partners logo/LAVAMAEX1.png"
+        name: "lavamaex",
+        logoURL: "/assets/images/Partners logo/LAVAMAEX1.png",
+        link: "https://lavamaex.org/"
     },
     {
-        name: "MHA",
-        "logoURL": "/assets/images/Partners logo/MHA1.jpg"
+        name: "MHA Essex Morris",
+        logoURL: "/assets/images/Partners logo/MHA1.jpg",
+        link: "https://www.mhainspire.org/"
     },
     {
         name: "Morris Community Wellness Center",
-        "logoURL": "/assets/images/Partners logo/MorrisCommunityWellnessCenterCSPNJ.png"
+        logoURL: "/assets/images/Partners logo/MorrisCommunityWellnessCenterCSPNJ.png",
+        link: "https://www.morrissussexresourcenet.org/search/morris-county-community-wellness-center/"
     },
     {
-        name: "Nyes",
-        "logoURL": "/assets/images/Partners logo/nyes.png"
+        name: "New York Embroidery Studio",
+        logoURL: "/assets/images/Partners logo/nyes.png",
+        link: "https://nyembroiderystudio.com/"
     },
     {
-        name: "RXWater 1",
-        "logoURL": "/assets/images/Partners logo/RXWATER.png"
-    },
-    {
-        name: "RXWater 2",
-        "logoURL": "/assets/images/Partners logo/RXWATER11042021.png"
+        name: "RXWater",
+        logoURL: "/assets/images/Partners logo/RXWATER.png",
+        link: "https://drinkrxwater.com"
     },
     {
         name: "Rutgers Law",
-        "logoURL": "/assets/images/Partners logo/RutgersLaw.png"
+        logoURL: "/assets/images/Partners logo/RutgersLaw.png",
+        link: "https://law.rutgers.edu/"
     },
     {
-        name: "SACK",
-        "logoURL": "/assets/images/Partners logo/S.A.C.K.Logo.jpg.jpg"
+        name: "S.A.C.K",
+        logoURL: "/assets/images/Partners logo/S.A.C.K.Logo.jpg.jpg",
+        link: "https://www.soapsacks.com/"
     },
     {
         name: "Salvation Army",
-        "logoURL": "/assets/images/Partners logo/SALVATIONARMY.jpg"
+        logoURL: "/assets/images/Partners logo/SALVATIONARMY.jpg",
+        link: "https://www.salvationarmyusa.org/usn/"
     },
     {
-        name: "Stelizabeth",
-        "logoURL": "/assets/images/Partners logo/stelizabeth.png"
+        name: "Saint Elizabeth University",
+        logoURL: "/assets/images/Partners logo/stelizabeth.png",
+        link: "https://www.steu.edu/"
     },
     {
-        name: "US ARMY",
-        "logoURL":"/assets/images/Partners logo/USARMY1.png"
+        name: "U.S Army",
+        logoURL:"/assets/images/Partners logo/USARMY1.png",
+        link: "https://www.army.mil/"
     },
     {
         name: "Urban League of Essex County",
-        "logoURL": "/assets/images/Partners logo/URBANLEAGUEOFESSEXCOUNTYNEWARKNJ.png"
+        logoURL: "/assets/images/Partners logo/URBANLEAGUEOFESSEXCOUNTYNEWARKNJ.png",
+        link: "https://ulec.org/"
     },
     {
         name: "Zufall Health",
-        "logoURL": "/assets/images/Partners logo/ZuFallHealth1.jpg"
+        logoURL: "/assets/images/Partners logo/ZuFallHealth1.jpg",
+        link: "https://www.zufallhealth.org"
     },
     {
         name: "Your logo",
-        "logoURL": "/assets/images/Partners logo/YOURLOGOHERE11242021.jpg"
-    },
-    {
-        name: "Your Logo",
-        "logoURL": "/assets/images/Partners logo/YOURLOGOHERE11242021.jpg"
-    },
-    {
-        name: "Your Logo",
-        "logoURL": "/assets/images/Partners logo/YOURLOGOHERE11242021.jpg"
-    },
-    {
-        name: "Your Logo",
-        "logoURL": "/assets/images/Partners logo/YOURLOGOHERE11242021.jpg"
+        logoURL: "/assets/images/Partners logo/YOURLOGOHERE11242021.jpg",
+        link: "/advertise"
     }
 ]

@@ -23,7 +23,7 @@ const Partners: React.FC = () => {
         <div className='container'>
           <div className={styles.grid}>
             {logos.map((partner) => (
-              <div className={styles.item} key={partner.name}>
+              <a className={styles.item} key={partner.name} href={partner.link}>
                 <Image
                   src={partner.logoURL}
                   width={150}
@@ -31,7 +31,7 @@ const Partners: React.FC = () => {
                   className={styles.logo}
                   alt={partner.name}
                 />
-              </div>
+              </a>
             ))}
           </div>
         </div>
