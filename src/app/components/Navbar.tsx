@@ -75,7 +75,7 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li>
-                        <a href='/about/specifications'>Specifications</a>
+                        <a href='/specifications'>Specifications</a>
                       </li>
                     </ul>
                   </li>

@@ -14,7 +14,7 @@ export default function Contact() {
           <div className='row'>
             <div className='col-lg-12 pb-60'>
               <div className='charina-section-title white text-center'>
-                <h4> How to Find Us </h4>
+                <h4>How to Find Us</h4>
                 <h1>
                   Contact Us <span>Online</span>
                 </h1>
@@ -56,6 +56,16 @@ export default function Contact() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="container">
+          <p className="whiteImportant">
+            If you want to volunteer with us, please check out the
+            {' '}<a href="/volunteer" className="darkLink">volunteering</a> subpage.
+            For donation information, check out our
+            {' '}<a href="/donate" className="darkLink">donating online</a>,
+            {' '}<a href="/donate" className="darkLink">donating products</a>, and
+            {' '}<a href="/donate" className="darkLink">donating hygiene</a> pages.
+          </p>
         </div>
       </div>
       {/*==================================================*/}

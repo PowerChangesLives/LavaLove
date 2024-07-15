@@ -99,7 +99,7 @@ export default function Footer() {
               <div className='footer-bottom-content-copy'>
                 <p>
                   Copyright © {new Date().getFullYear()}{' '}
-                  <a className="inheritColor" href="https://powerchangeslives.com">Power Changes Lives</a>;
+                  <a className="whiteImportant" href="https://powerchangeslives.com">Power Changes Lives</a>;
                   All Rights Reserved.
                 </p>
               </div>

@@ -339,12 +339,12 @@ export default function Home() {
                     </div>
                     {/* counter title */}
                     <div className='counter-title2'>
-                      <h1 className='counter'>12</h1>
-                      <h1 className='counter-title2'>M</h1>
+                      <h1 className='counter'>+6</h1>
+                      <h1 className='counter-title2'>K</h1>
                     </div>
                     {/* counter text */}
                     <div className='counter-text'>
-                      <p>Total Donations</p>
+                      <p>Yearly Showers</p>
                     </div>
                   </div>
                 </div>
@@ -356,12 +356,12 @@ export default function Home() {
                     </div>
                     {/* counter title */}
                     <div className='counter-title2'>
-                      <h1 className='counter'>12</h1>
-                      <h1 className='counter-title2'>M</h1>
+                      <h1 className='counter'>19</h1>
+                      <h1 className='counter-title2'></h1>
                     </div>
                     {/* counter text */}
                     <div className='counter-text'>
-                      <p>Total Donations</p>
+                      <p>Fellow Sponsors</p>
                     </div>
                   </div>
                 </div>
@@ -373,12 +373,12 @@ export default function Home() {
                     </div>
                     {/* counter title */}
                     <div className='counter-title2'>
-                      <h1 className='counter'>12</h1>
-                      <h1 className='counter-title2'>M</h1>
+                      <h1 className='counter'>93</h1>
+                      <h1 className='counter-title2'>K</h1>
                     </div>
                     {/* counter text */}
                     <div className='counter-text'>
-                      <p>Total Donations</p>
+                      <p>Water Insecure</p>
                     </div>
                   </div>
                 </div>
@@ -403,22 +403,17 @@ export default function Home() {
             </div>
             <div className='col-lg-6 col-md-6 pl-5'>
               <div className='charina-section-title'>
-                <h4> Suport Us Help Them </h4>
-                <h1> Join your Hands with Us </h1>
-                <h1 className='section-text'>
-                  {' '}
-                  For Support <span>Them’s</span>{' '}
-                </h1>
+                <h4>Towards a Helping Hand</h4>
+                <h1>Radical Hospitality</h1>
                 <p>
-                  {' '}
-                  Completely create leveraged best practices and B2B interfaces
-                  events productivate cutting-edge solutions with go forward
-                  supply chains has Compellingly supply 24/7 relationships and
-                  effective human capital tha Appropriately target market
-                  positioning
+                  LavaLove will operate three days per week,
+                  in six-hour shifts, providing over five thousand showers
+                  every year to the homeless.
+                  However, we don{"'"}t just stop there; we offer
+                  paper bag lunches through Project F.E.E.D, helping address
+                  community food insecurity.
                 </p>
               </div>
-              {/* button */}
               <div className='charina-button'>
                 <a href='contact.html'>
                   {' '}
