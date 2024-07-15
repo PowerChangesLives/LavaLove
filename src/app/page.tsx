@@ -192,7 +192,8 @@ export default function Home() {
               </div>
               <div className='charina-button upp'>
                 <a href='/donate'>
-                  Donate Now<i className='bi bi-chevron-double-right' />{' '}
+                  Donate Now
+                  <i className='bi bi-chevron-double-right' />{' '}
                 </a>
               </div>
             </div>
@@ -404,10 +405,9 @@ export default function Home() {
                 <h4>Towards a Helping Hand</h4>
                 <h1>Radical Hospitality</h1>
                 <p>
-                  LavaLove will operate three days per week,
-                  in six-hour shifts, providing over five thousand showers
-                  every year to the homeless.
-                  However, we don{"'"}t just stop there; we offer
+                  LavaLove will operate three days per week, in six-hour shifts,
+                  providing over five thousand showers every year to the
+                  homeless. However, we don{"'"}t just stop there; we offer
                   paper bag lunches through Project F.E.E.D, helping address
                   community food insecurity.
                 </p>

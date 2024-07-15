@@ -49,8 +49,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a href='/documents/operational-budget.pdf'>
-                          Operational Costs{' '}
-                          <i className='bi bi-card-text'></i>
+                          Operational Costs <i className='bi bi-card-text'></i>
                         </a>
                       </li>
                       <li>
@@ -58,8 +57,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a href='/documents/portfolio.pdf'>
-                          Portfolio{' '}
-                          <i className='bi bi-card-text'></i>
+                          Portfolio <i className='bi bi-card-text'></i>
                         </a>
                       </li>
                       <li>

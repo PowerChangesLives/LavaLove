@@ -99,8 +99,13 @@ export default function Footer() {
               <div className='footer-bottom-content-copy'>
                 <p>
                   Copyright © {new Date().getFullYear()}{' '}
-                  <a className="whiteImportant" href="https://powerchangeslives.com">Power Changes Lives</a>;
-                  All Rights Reserved.
+                  <a
+                    className='whiteImportant'
+                    href='https://powerchangeslives.com'
+                  >
+                    Power Changes Lives
+                  </a>
+                  ; All Rights Reserved.
                 </p>
               </div>
             </div>

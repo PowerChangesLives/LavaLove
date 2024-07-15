@@ -15,8 +15,8 @@ interface Partners {
 const Partners: React.FC = () => {
   return (
     <>
-      <Breatcam breadcrumbs={["About", "Partners & Sponsors"]}>
-      Partners & Sponsors
+      <Breatcam breadcrumbs={['About', 'Partners & Sponsors']}>
+        Partners & Sponsors
       </Breatcam>
       {/* =============================== */}
       <div className={styles.detailsSection}>

@@ -3,9 +3,7 @@ import Breatcam from '../components/Breatcam';
 export default function Volunteer() {
   return (
     <>
-      <Breatcam breadcrumbs={["Volunteer"]}>
-        Volunteering
-      </Breatcam>
+      <Breatcam breadcrumbs={['Volunteer']}>Volunteering</Breatcam>
       {/*==================================================*/}
       {/* Start charina about section  */}
       {/*==================================================*/}

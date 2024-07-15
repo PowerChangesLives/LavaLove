@@ -1,9 +1,11 @@
-import Breatcam from "@/app/components/Breatcam";
+import Breatcam from '@/app/components/Breatcam';
 
 export default function Specifications() {
-    return <>
-        <Breatcam breadcrumbs={["About", "Specifications"]}>
-            Specifications
-        </Breatcam>
+  return (
+    <>
+      <Breatcam breadcrumbs={['About', 'Specifications']}>
+        Specifications
+      </Breatcam>
     </>
+  );
 }

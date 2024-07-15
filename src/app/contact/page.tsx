@@ -3,9 +3,7 @@ import Breatcam from '../components/Breatcam';
 export default function Contact() {
   return (
     <>
-      <Breatcam breadcrumbs={["Contact"]}>
-        Contact Us
-      </Breatcam>
+      <Breatcam breadcrumbs={['Contact']}>Contact Us</Breatcam>
       {/*==================================================*/}
       {/* Start charina Contact Info Section */}
       {/*==================================================*/}
@@ -42,10 +40,7 @@ export default function Contact() {
                 </div>
                 <div className='contacts-title'>
                   <h5>Mail Us</h5>
-                  <a
-                    className='text-white'
-                    href='mailto:info@lavalovenj.com'
-                  >
+                  <a className='text-white' href='mailto:info@lavalovenj.com'>
                     <h6>info@lavalovenj.com</h6>
                   </a>
                 </div>
@@ -64,14 +59,25 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="container">
-          <p className="whiteImportant">
-            If you want to volunteer with us, please check out the
-            {' '}<a href="/volunteer" className="darkLink">volunteering</a> subpage.
-            For donation information, check out our
-            {' '}<a href="/donate" className="darkLink">donating online</a>,
-            {' '}<a href="/donate" className="darkLink">donating products</a>, and
-            {' '}<a href="/donate" className="darkLink">donating hygiene</a> pages.
+        <div className='container'>
+          <p className='whiteImportant'>
+            If you want to volunteer with us, please check out the{' '}
+            <a href='/volunteer' className='darkLink'>
+              volunteering
+            </a>{' '}
+            subpage. For donation information, check out our{' '}
+            <a href='/donate' className='darkLink'>
+              donating online
+            </a>
+            ,{' '}
+            <a href='/donate' className='darkLink'>
+              donating products
+            </a>
+            , and{' '}
+            <a href='/donate' className='darkLink'>
+              donating hygiene
+            </a>{' '}
+            pages.
           </p>
         </div>
       </div>

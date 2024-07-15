@@ -32,9 +32,7 @@ export default function Events() {
 
   return (
     <>
-      <Breatcam breadcrumbs={["Donations", "Events"]}>
-        Upcoming Events
-      </Breatcam>
+      <Breatcam breadcrumbs={['Donations', 'Events']}>Upcoming Events</Breatcam>
       {/*==================================================*/}
       {/* Main Event */}
       {/*==================================================*/}
