@@ -29,7 +29,9 @@ export default function Contact() {
                 </div>
                 <div className='contacts-title'>
                   <h5>Call Us Now</h5>
-                  <h6>+1 973 (866) 5531</h6>
+                  <a className='text-white' href='tel:+19738665531'>
+                    <h6>+1 973-866-5531</h6>
+                  </a>
                 </div>
               </div>
             </div>
@@ -40,7 +42,12 @@ export default function Contact() {
                 </div>
                 <div className='contacts-title'>
                   <h5>Mail Us</h5>
-                  <h6>info@lavalovenj.com</h6>
+                  <a
+                    className='text-white'
+                    href='mailto:info@lavalovenj.com'
+                  >
+                    <h6>info@lavalovenj.com</h6>
+                  </a>
                 </div>
               </div>
             </div>
