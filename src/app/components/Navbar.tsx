@@ -45,7 +45,7 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li>
-                        <a href='volunteer.html'>Expansion Plan</a>
+                        <a href='/expansion'>Expansion Plan</a>
                       </li>
                       <li>
                         <a href='/documents/operational-budget.pdf'>
