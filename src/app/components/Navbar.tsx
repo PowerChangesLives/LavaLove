@@ -49,23 +49,29 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a href='/documents/operational-budget.pdf'>
-                          Operational Costs
+                          Operational Costs{' '}
+                          <i className='bi bi-card-text'></i>
                         </a>
                       </li>
                       <li>
                         <a href='/partners'>Partners and Sponsors</a>
                       </li>
                       <li>
-                        <a href='/documents/portfolio.pdf'>Portfolio</a>
-                      </li>
-                      <li>
-                        <a href='/documents/irs-form-990-2020'>
-                          IRS Form 990 (2020)
+                        <a href='/documents/portfolio.pdf'>
+                          Portfolio{' '}
+                          <i className='bi bi-card-text'></i>
                         </a>
                       </li>
                       <li>
                         <a href='/documents/irs-form-990-2020'>
-                          IRS Form 990 (2019)
+                          IRS Form 990 (2020){' '}
+                          <i className='bi bi-card-text'></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href='/documents/irs-form-990-2020'>
+                          IRS Form 990 (2019){' '}
+                          <i className='bi bi-card-text'></i>
                         </a>
                       </li>
                       <li>

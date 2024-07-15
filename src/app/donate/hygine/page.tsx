@@ -1,3 +1,9 @@
+import Breatcam from "@/app/components/Breatcam";
+
 export default function Hygiene() {
-  return <></>;
+  return <>
+    <Breatcam breadcrumbs={["Donations", "Hygine"]}>
+      DIY Hygine Kits
+    </Breatcam>
+  </>;
 }
