@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ alwaysActive } = {}) => {
       {/*==================================================*/}
       <div
         id='sticky-header'
-        className='charina_nav_manu style-three align-items-center'
+        className={`charina_nav_manu style-three align-items-center ${alwaysActive ? 'sticky' : ''}`}
       >
         <div className='container'>
           <div className='row align-items-center'>
@@ -27,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ alwaysActive } = {}) => {
               </div>
             </div>
             <div className='col-lg-8'>
-              <nav className={alwaysActive ? 'sticky charina_menu' : 'charina_menu'}>
+              <nav className='charina_menu'>
                 {/* <nav> */}
                 {/* <nav className='charina_menu'> */}
                 <ul className='nav_scroll'>
