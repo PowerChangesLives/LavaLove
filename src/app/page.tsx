@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <>
-      <div className='hero_list owl-carousel responsive'>
+      <div className='hero_list responsive'>
         <div className='hero-section hero4 d-flex align-items-center'>
           <div className='container'>
             <div className='row'>

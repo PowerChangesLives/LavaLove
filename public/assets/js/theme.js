@@ -72,34 +72,6 @@
     });
 
     // Case Study Active
-    $('.hero_list').owlCarousel({
-        autoplay: true,
-        autoplayTimeout: 10000,
-        dots: true,
-        nav: true,
-        mouseDrag: false,
-        center: true,
-        navText: ["<i class='bi bi-arrow-left''></i>", "<i class='bi bi-arrow-right''></i>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 1
-            },
-            992: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            },
-            1920: {
-                items: 1
-            }
-        }
-    })
-
-    // Case Study Active
     $('.donate-list').owlCarousel({
         loop: true,
         autoplay: true,
