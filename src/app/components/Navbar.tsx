@@ -1,10 +1,10 @@
 import '../globals.css';
 
 interface NavbarProps {
-  is404?: boolean;
+  alwaysActive?: boolean;
 }
 
-const Navbar: React.FC<NavbarProps> = ({ is404 }) => {
+const Navbar: React.FC<NavbarProps> = ({ alwaysActive } = {}) => {
   return (
     <>
       {/*==================================================*/}
@@ -27,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ is404 }) => {
               </div>
             </div>
             <div className='col-lg-8'>
-              <nav className={is404 ? 'charina_menu_404' : 'charina_menu'}>
+              <nav className={alwaysActive ? 'sticky charina_menu' : 'charina_menu'}>
                 {/* <nav> */}
                 {/* <nav className='charina_menu'> */}
                 <ul className='nav_scroll'>

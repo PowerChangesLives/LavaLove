@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function NotFound404() {
   return (
@@ -10,9 +11,11 @@ export default function NotFound404() {
         overflow: 'hidden',
       }}
     >
-      <img
+      <Image
         src='/assets/images/404image.png'
         alt='404'
+        width={612}
+        height={408}
         style={{
           position: 'absolute',
           top: '50%',
