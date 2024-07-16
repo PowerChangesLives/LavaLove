@@ -113,11 +113,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <Navbar alwaysActive={navbarAlwaysActive} />
         {children}
-        <Footer />
-        <ScrollUp />
-        <EndScripts />
       </body>
     </html>
   );

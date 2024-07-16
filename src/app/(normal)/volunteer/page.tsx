@@ -1,4 +1,4 @@
-import Breatcam from '../components/Breatcam';
+import Breatcam from '../../components/Breatcam';
 
 export default function Volunteer() {
   return (

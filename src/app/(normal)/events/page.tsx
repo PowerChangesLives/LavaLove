@@ -1,4 +1,4 @@
-import Breatcam from '../components/Breatcam';
+import Breatcam from '../../components/Breatcam';
 import events from './events.json';
 
 export default function Events() {

@@ -1,7 +1,7 @@
 'use client';
 
-import Breatcam from '../components/Breatcam';
-import EndScripts from '../components/EndScripts';
+import Breatcam from '../../components/Breatcam';
+import EndScripts from '../../components/EndScripts';
 import { logos } from './logos';
 import React from 'react';
 import Image from 'next/image';
