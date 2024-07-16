@@ -14,10 +14,17 @@ export const metadata: Metadata = {
     'LavaLove provides showers and basic care to the New Jersey homeless.',
 };
 
+// interface RootLayoutProps {
+//   children: React.ReactNode;
+//   is404?: boolean;
+// }
+
 export default function RootLayout({
   children,
+  is404 = false,
 }: Readonly<{
   children: React.ReactNode;
+  is404?: boolean;
 }>) {
   return (
     <html lang='en'>
@@ -111,7 +118,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <Navbar />
+        <Navbar is404={is404} />
         {children}
         <Footer />
         <ScrollUp />

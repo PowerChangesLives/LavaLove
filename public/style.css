@@ -170,6 +170,79 @@ Tags:       campaign, charity, church, donate, donations, foundation, fund, fund
     color: #1b3434;
 }
 
+/* 404 page navbar styling - charina Menu Css */
+
+nav.charina_menu_404 {
+    text-align: center;
+}
+
+.style-three nav.charina_menu_404 {
+    text-align: right;
+}
+
+.charina_menu_404 ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.charina_menu_404 > ul > li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.charina_menu_404 > ul > li > a {
+    display: inline-block;
+    margin: 30px 16px;
+
+    color: #1b3434;
+    /* color: var(--primary-color); */
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.charina_menu_404 ul li a::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background: var(--primary-color);
+    transition: 0.5s;
+}
+
+.style-three .charina_menu_404 > ul > li > a {
+    margin: 30px 15px;
+    color: var(--primary-color);
+}
+
+.style-three nav.charina_menu_404 > ul > li > a span {
+    color: var(--primary-color);
+}
+
+nav.charina_menu_404 > ul > li > a span {
+    font-size: 14px;
+    padding-left: 6px;
+    color: #1b3434;
+    /* color: var(--primary-color); */
+}
+
+.charina_menu_404 > ul > li > a:hover {
+    color: var(--primary-color);
+}
+
+nav.charina_menu_404 > ul > li > a:hover span {
+    color: var(--primary-color);
+}
+
+.charina_menu_404 ul li a:hover::before {
+    width: 100%;
+}
+
 /* charina Menu Css*/
 
 nav.charina_menu {
@@ -5102,7 +5175,7 @@ span.flaticon-multiply i {
 
 /*event items*/
 .event-details-items {
-    background: url(assets/images/resource/event_bg.png);
+    background: #edf8fc;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -5116,7 +5189,7 @@ span.flaticon-multiply i {
 .event-title2 h4 {
     font-size: 22px;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     position: relative;
     padding: 0 0 20px 55px;
 }
@@ -5139,7 +5212,7 @@ span.flaticon-multiply i {
 .event-text2 p {
     font-size: 15px;
     margin-bottom: 2px;
-    color: #D1D2D4;
+    color: #000;
 }
 
 .event-text2 p i {
@@ -5151,12 +5224,12 @@ span.flaticon-multiply i {
 .event-text2 p {
     font-size: 15px;
     margin-bottom: 2px;
-    color: #D1D2D4;
+    color: #000;
 }
 
 .event-text2 p span {
     font-size: 16px;
-    color: #fff;
+    color: #000;
     font-weight: 600;
 }
 

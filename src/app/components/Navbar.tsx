@@ -1,5 +1,10 @@
 import '../globals.css';
-export default function Navbar() {
+
+interface NavbarProps {
+  is404?: boolean;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ is404 }) => {
   return (
     <>
       {/*==================================================*/}
@@ -22,7 +27,9 @@ export default function Navbar() {
               </div>
             </div>
             <div className='col-lg-8'>
-              <nav className='charina_menu'>
+              <nav className={is404 ? 'charina_menu_404' : 'charina_menu'}>
+                {/* <nav> */}
+                {/* <nav className='charina_menu'> */}
                 <ul className='nav_scroll'>
                   <li>
                     <a href='/'>Home</a>
@@ -257,4 +264,6 @@ export default function Navbar() {
       {/*==================================================*/}
     </>
   );
-}
+};
+
+export default Navbar;

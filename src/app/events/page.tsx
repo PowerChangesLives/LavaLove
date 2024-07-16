@@ -36,18 +36,21 @@ export default function Events() {
       {/*==================================================*/}
       {/* Main Event */}
       {/*==================================================*/}
-      <div className='donate-section event-details'>
+      <div className='donate-section event-details pt-4'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 col-md-6'>
-              <div className='donations-single-box'>
-                {/* donations thumb */}
+              {/*  */}
+              {/* larger image */}
+              {/* 770x435 */}
+              {/* <div className='donations-single-box'>
                 <div className='donations-thumb'>
-                  <img src='assets/images/resource/event.png' alt='' />
+                  <img src={mainEvent.image2} alt='' />
                 </div>
-              </div>
+              </div> */}
+
               {/* donations title */}
-              <div className='donations-detials-title pt-20'>
+              <div className='donations-detials-title'>
                 <h2>
                   <a href='donate.html'>{mainEvent.title}</a>
                 </h2>
@@ -57,14 +60,28 @@ export default function Events() {
                 <p>{mainEvent.description}</p>
               </div>
               {/* donation description */}
-              <div className='donation-description up'>
+              <div
+                className='donation-description up'
+                style={{ whiteSpace: 'pre-line' }}
+              >
                 <p>{mainEvent.notes}</p>
               </div>
               {/* donation description */}
               <div className='donation-description'>
                 <p>{mainEvent.additionalInfo}</p>
               </div>
-              <div className='row mt-55'>
+
+              {/* larger image */}
+              {/* 770x435 */}
+              <div className='donations-single-box'>
+                <div className='donations-thumb'>
+                  {/* <img src='assets/images/resource/event.png' alt='' /> */}
+                  <img src={mainEvent.image2} alt='' />
+                </div>
+              </div>
+
+              {/* two smaller 370x370 images */}
+              {/* <div className='row mt-55'>
                 <div className='col-lg-6 col-md-6'>
                   <div className='event-thumb'>
                     <img src='assets/images/resource/1-event.png' alt='' />
@@ -75,7 +92,7 @@ export default function Events() {
                     <img src='assets/images/resource/2-event.png' alt='' />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* --------------- EVENTS ---------------*/}
@@ -83,6 +100,7 @@ export default function Events() {
             <div className='col-md-6 col-lg-4'>
               {/* widget items */}
               {/* START CURRENT EVENT INFO */}
+              {/* This controls the background color/image */}
               <div className='event-details-items'>
                 {/* event title */}
                 <div className='event-title2'>
@@ -125,16 +143,26 @@ export default function Events() {
 
               <div
                 className='widget-items'
-                style={{ marginTop: '-15px', marginBottom: '40px' }}
+                style={{
+                  marginTop: '-15px',
+                  marginBottom: '40px',
+                  background: '#edf8fc',
+                }}
               >
                 {threeUpcomingEvents.map((event, i) => {
                   return (
                     <div className='widget-recent-post upper d-flex' key={i}>
                       <div className='rpost-thumb'>
                         <a href='blog-details.html'>
-                          <img
+                          {/* <img
                             src='assets/images/resource/post3.png'
                             alt='post thumb'
+                          /> */}
+                          <img
+                            src={event.imageSmall}
+                            alt=''
+                            width=' 80'
+                            height=' 80'
                           />
                         </a>
                       </div>
@@ -159,15 +187,21 @@ export default function Events() {
 
               <div
                 className='widget-items'
-                style={{ marginTop: '-15px', marginBottom: '40px' }}
+                style={{
+                  marginTop: '-15px',
+                  marginBottom: '40px',
+                  background: '#edf8fc',
+                }}
               >
                 {threePreviousEvents.map((event, i) => (
                   <div className='widget-recent-post upper d-flex' key={i}>
                     <div className='rpost-thumb'>
                       <a href='blog-details.html'>
                         <img
-                          src='assets/images/resource/post3.png'
-                          alt='post thumb'
+                          src={event.imageSmall}
+                          alt=''
+                          width=' 80'
+                          height=' 80'
                         />
                       </a>
                     </div>
@@ -185,9 +219,9 @@ export default function Events() {
 
               {/* END PAST EVENTS */}
 
+              {/* Donate Section under the sidebar previous events */}
               {/* categoreis thumb */}
-              <div className='widget-categories-thumb'>
-                {/* widget categories content  */}
+              {/* <div className='widget-categories-thumb'>
                 <div className='widget-categories-content text-center'>
                   <div className='logo-thumb'>
                     <a href='index.html'>
@@ -205,7 +239,7 @@ export default function Events() {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

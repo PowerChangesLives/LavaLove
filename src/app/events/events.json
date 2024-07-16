@@ -4,20 +4,24 @@
     "date": "December 11, 2021",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   },
   {
     "title": "Pop-up Care Village 3",
     "date": "December 9, 2021",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   },
 
   {
@@ -25,10 +29,12 @@
     "date": "December 4, 2021",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   },
 
   {
@@ -36,59 +42,71 @@
     "date": "December 1, 2021",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   },
   {
     "title": "Test Upcoming 2",
     "date": "October 24, 2024",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   },
   {
     "title": "Test Upcoming 3",
     "date": "October 25, 2024",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   },
   {
     "title": "Test Upcoming 4",
     "date": "October 26, 2024",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   },
   {
     "title": "Test Upcoming 5",
     "date": "October 27, 2024",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   },
   {
     "title": "Test Upcoming 1",
     "date": "October 23, 2024",
     "time": "10am to 6pm",
     "location": "United Methodist Church, Morristown, NJ",
-    "description": "test description",
-    "notes": "test notes",
+    "description": "RSVP REQUIRED: https://LavaLovePUCV.eventbrite.com",
+    "notes": "PARTNERS: Reserve your FREE table providing supplies and resources for the Homeless: https://tinyurl.com/PUCVPartner",
     "additionalInfo": "test additional info",
-    "image": "LAVALOVECHRISTMASBANNER.png"
+    "image": "/assets/images/LAVALOVECHRISTMASBANNER.png",
+    "image2": "assets/images/slider/hero-bg3.jpg",
+    "imageSmall": "/assets/images/ChristmasBannerSmall.png"
   }
 ]
