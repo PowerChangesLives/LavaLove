@@ -18,6 +18,7 @@
   border-radius: 8px;
   background-color: #f9f9f9;
   transition: transform 0.2s;
+  flex: 1 1 200px;
 }
 
 .item img {
@@ -29,4 +30,27 @@
 
 .item:hover {
   transform: scale(1.05);
+}
+@media (max-width: 1200px) {
+  .item {
+    flex: 0 1 calc(25% - 16px); /* 4 items per row */
+  }
+}
+
+@media (max-width: 992px) {
+  .item {
+    flex: 0 1 calc(33.33% - 16px); /* 3 items per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+    flex: 0 1 calc(50% - 16px); /* 2 items per row */
+  }
+}
+
+@media (max-width: 576px) {
+  .item {
+    flex: 0 1 100%; /* 1 item per row */
+  }
 }
