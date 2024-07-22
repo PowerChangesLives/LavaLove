@@ -30,7 +30,7 @@ const Partners: React.FC = () => {
                   height={150}
                   className={styles.logo}
                   alt={partner.name}
-                  layout="responsive"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </a>
             ))}
