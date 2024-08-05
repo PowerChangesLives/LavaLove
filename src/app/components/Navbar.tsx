@@ -165,10 +165,11 @@ const Navbar: React.FC<NavbarProps> = ({ alwaysActive } = {}) => {
       {/* charina Mobile Menu Area */}
       <div className='mobile-menu-area d-sm-block d-md-block d-lg-none sticky'>
         <div className='mobile-menu'>
+          <img src='/assets/images/logo.png' alt='LavaLove Logo'></img> 
           <nav className='charina_menu'>
             <ul className='nav_scroll'>
               <li>
-                <a href='/'>Home</a>
+                <a href='/'>Home</a> 
               </li>
               <li>
                 <a href='#'>
